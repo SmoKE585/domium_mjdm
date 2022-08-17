@@ -1,0 +1,6 @@
+/var/www/html/.gitattributes
+/var/www/html/templates/linked_prop/linked_prop.html
+/var/www/html/templates/linked_prop/action_usual.html
+/var/www/html/templates/linked_prop/action_admin.html
+/var/www/html/img/modules/linked_prop.png
+/var/www/html/modules/linked_prop/linked_prop.class.php

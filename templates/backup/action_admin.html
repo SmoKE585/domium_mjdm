@@ -1,0 +1,407 @@
+<link rel="stylesheet" href="../templates/backup/bootstrap-select.min.css">
+[#if ERR_MSG!=""#]
+<div class="row">
+    <div class="alert alert-danger col-md-8 col-md-offset-2" align="center">[#ERR_MSG#]</div>
+</div>
+[#endif ERR_MSG#]
+
+[#if OK_MSG!=""#]
+<div class="row">
+    <div class="alert alert-success col-md-8 col-md-offset-2" align="center">[#OK_MSG#]</div>
+</div>
+[#endif OK_MSG#]
+
+[#if MODE="backup_iframe"#]
+<iframe src="<#ROOTHTML#>modules/backup/update_iframe.php?command=<#COMMAND#>&backup=<#BACKUP#>" width="100%" height="800"  frameborder=0 class="myIframe"></iframe>
+[#else MODE#]
+
+<form action="?" method="post" enctype="multipart/form-data" name="frmEdit" class="form-horizontal">
+<script type="text/javascript">
+	function OnSelectType (select) {    
+	    var fDiv0 = document.getElementById('set_local');
+		var fDiv1 = document.getElementById('set_webdav');
+		var fDiv2 = document.getElementById('set_gdrive');
+		var fDiv3 = document.getElementById('set_mailru');
+		var fDiv4 = document.getElementById('set_ftp');
+		var fDiv5 = document.getElementById('set_dropbox');
+		fDiv0.style.display = (select.value == 0) ? 'block' : 'none';
+		fDiv1.style.display = (select.value == 1) ? 'block' : 'none';
+		fDiv2.style.display = (select.value == 2) ? 'block' : 'none';
+		fDiv3.style.display = (select.value == 3) ? 'block' : 'none';
+		fDiv4.style.display = (select.value == 4) ? 'block' : 'none';
+		fDiv5.style.display = (select.value == 5) ? 'block' : 'none';
+	}
+</script> 
+
+<button class="btn btn-primary btn-sm float-right" data-toggle="modal" data-target="#about"><#LANG_ABOUT#>&nbsp;&nbsp;<span class="glyphicon glyphicon-info-sign icon-white"></span></button>
+<ul id="tab" class="nav nav-tabs">
+	<li><a data-toggle="tab" href="#panel_backups"><span class="glyphicon glyphicon-cloud"></span> <#LANG_BAK_BACKUPS#></a></li>
+	<li><a data-toggle="tab" href="#panel_settings_storage"><span class="glyphicon glyphicon-cog"></span> <#LANG_BAK_SETTING_STORAGE#></a></li>
+	<li><a data-toggle="tab" href="#panel_settings_backup"><span class="glyphicon glyphicon-th-list"></span> <#LANG_BAK_SETTING_BACKUP#></a></li>
+	<li><a data-toggle="tab" href="#panel_settings_notify"><span class="glyphicon glyphicon-bell"></span> <#LANG_BAK_SETTING_NOTIFY#></a></li>
+	<li><a data-toggle="tab" href="#panel_help"><span class="glyphicon glyphicon-exclamation-sign"></span> <#LANG_HELP#></a></li>
+</ul>
+
+
+<div class="tab-content">
+    <div id="panel_help" class="tab-pane fade in">
+        [#inc help.html#]
+    </div>
+	<div id="panel_settings_storage" class="tab-pane fade in">
+	<br>
+	<fieldset>
+		<div class="form-group">
+			<label class="control-label col-lg-4"><#LANG_BAK_PROVIDER#>: </label>
+			<div class="col-lg-7">
+				<select name="provider" class="selectpicker form-control" id="provider" onchange="OnSelectType(this);">
+					<option data-content="<img src='../img/modules/backup.png' width='20' height='20'> Local" value="0"[#if PROVIDER=="0"#] selected[#endif#]>Local</option>
+					<option data-content="<img src='../templates/backup/img/webdav.png' width='20' height='20'> WebDav" value="1"[#if PROVIDER=="1"#] selected[#endif#]>WebDav</option>
+					<!--option value="2"[#if PROVIDER=="2"#] selected[#endif#]>Google Drive</option-->
+					<option data-content="<img src='../templates/backup/img/CloudMailRu.png' width='20' height='20'> Cloud Mail.ru" value="3"[#if PROVIDER=="3"#] selected[#endif#]>Cloud Mail.ru</option>
+					<option data-content="<img src='../templates/backup/img/ftp.jpg' width='20' height='20'> FTP" value="4"[#if PROVIDER=="4"#] selected[#endif#]>FTP</option>
+					<option data-content="<img src='../templates/backup/img/Dropbox.png' width='20' height='20'> Dropbox" value="5"[#if PROVIDER=="5"#] selected[#endif#]>Dropbox</option>
+				</select>
+			</div>
+		</div>
+		<div id="set_local">
+			<div class="form-group">
+				<label class="control-label"><#LANG_BAK_LOCAL_PATH#>:</label>
+				<div class="col-lg-7"><input type="text" name="local_path" value="<#LOCAL_PATH#>" class="form-control"></div>
+			</div>
+		</div>
+		<div id="set_webdav">
+			<div class="form-group">
+				<label class="control-label"><#LANG_BAK_PATH#>:</label>
+				<div class="col-lg-7"><input type="text" name="webdav_path" value="<#WEBDAV_PATH#>" class="form-control"></div>
+			</div>
+			<div class="form-group">
+				<label class="control-label"><#LANG_BAK_URL#> WebDav:</label>
+				<div class="col-lg-7"><input type="text" name="webdav_url" value="<#WEBDAV_URL#>" class="form-control"></div>
+			</div>
+			<div class="form-group">
+				<label class="control-label"><#LANG_BAK_LOGIN#> WebDav:</label>
+				<div class="col-lg-7"><input type="text" name="webdav_login" value="<#WEBDAV_LOGIN#>" class="form-control"></div>
+			</div>
+			<div class="form-group">
+				<label class="control-label"><#LANG_BAK_PASSWORD#> WebDav:</label>
+				<div class="col-lg-7"><input type="text" name="webdav_password" value="<#WEBDAV_PASSWORD#>" class="form-control"></div>
+			</div>
+		</div>
+		<div id="set_gdrive">
+			<div class="form-group">
+				<label class="control-label">Coming soon...</label>
+			</div>
+		</div>
+		<div id="set_mailru">
+			<div class="form-group">
+				<label class="control-label"><#LANG_BAK_PATH#>:</label>
+				<div class="col-lg-7"><input type="text" name="mailru_path" value="<#MAILRU_PATH#>" class="form-control"></div>
+			</div>
+			<div class="form-group">
+				<label class="control-label"><#LANG_BAK_LOGIN#> Mail.ru:</label>
+				<div class="col-lg-7"><input type="text" name="mailru_login" value="<#MAILRU_LOGIN#>" class="form-control"></div>
+			</div>
+			<div class="form-group">
+				<label class="control-label"><#LANG_BAK_PASSWORD#> Mail.ru:</label>
+				<div class="col-lg-7"><input type="text" name="mailru_password" value="<#MAILRU_PASSWORD#>" class="form-control"></div>
+			</div>
+		</div>
+        <div id="set_ftp">
+			<div class="form-group">
+				<label class="control-label"><#LANG_BAK_PATH#>:</label>
+				<div class="col-lg-7"><input type="text" name="ftp_path" value="<#FTP_PATH#>" class="form-control"></div>
+			</div>
+            <div class="form-group">
+				<label class="control-label"><#LANG_BAK_URL#> FTP:</label>
+				<div class="col-lg-7"><input type="text" name="ftp_url" value="<#FTP_URL#>" class="form-control"></div>
+			</div>
+			
+			<div class="form-group">
+				<label class="control-label"><#LANG_BAK_LOGIN#>:</label>
+				<div class="col-lg-7"><input type="text" name="ftp_login" value="<#FTP_LOGIN#>" class="form-control"></div>
+			</div>
+			<div class="form-group">
+				<label class="control-label"><#LANG_BAK_PASSWORD#>:</label>
+				<div class="col-lg-7"><input type="text" name="ftp_password" value="<#FTP_PASSWORD#>" class="form-control"></div>
+			</div>
+		</div>
+		<div id="set_dropbox">
+			[#if DROPBOX_LOGIN==""#]
+			<div class="form-group">
+				<label class="control-label"><#LANG_BAK_ACCESS_CODE#>:</label>
+				<div class="col-lg-5"><input type="text" name="dropbox_code" value="" class="form-control"></div>
+				<div class="col-lg-2">
+				<a href="https://www.dropbox.com/oauth2/authorize?response_type=code&client_id=nshoq07v5avv4o8" class="btn btn-info form-control" role="button" target="_blank"><#LANG_BAK_GET_CODE#></a>
+				</div>
+			</div>
+			[#else#]
+			<div class="form-group">
+				<label class="control-label"><#LANG_BAK_ACCOUNT#>:</label>
+				<div class="col-lg-5"> <#DROPBOX_LOGIN#></div>
+				<div class="col-lg-2">
+				<a href="?mode=connection_delete" class="btn btn-info form-control" role="button"><#LANG_BAK_DELETE_CONNECTION#></a>
+				</div>
+			</div>
+			[#endif#]
+		</div>
+		<script type="text/javascript">  
+			OnSelectType ( document.getElementById('provider') );
+		</script> 
+		<div class="form-group">
+            <label class="control-label"><#LANG_BAK_MAX_COUNT#>:</label>
+            <div class="col-lg-7">
+            <input class="form-control" type="number" data-bv-integer-message="The value is not an integer" min="0" step="1" name="max_count" value="<#MAX_COUNT#>">
+            </div>
+		</div>
+        <div class="form-group">
+            <label class="control-label">Debug:</label>
+            <div class="controls"><input type="checkbox" name="backup_debug" value="1"[#if BACKUP_DEBUG="1"#] checked[#endif#]></div>
+		</div>
+		<div class="form-actions">
+            <button type="submit" name="subm" value="Submit" class="btn btn-primary"><#LANG_UPDATE#></button>
+            <input type="hidden" name="view_mode" value="">
+            <input type="hidden" name="mode" value="update_settings">
+		</div>
+	</fieldset>
+	</div>
+    <div id="panel_settings_backup" class="tab-pane fade in">
+    <br>
+	<fieldset>
+	    <div class="form-group">
+            <label class="control-label"><#LANG_BAK_TEMP_FOLDER#>:</label>
+            <div class="col-lg-7"><input type="text" name="temp_backup_folder" value="<#TEMP_BACKUP_FOLDER#>" class="form-control"></div>
+        </div>
+        <div class="form-group">
+            <label class="control-label"><#LANG_BAK_BACKUP_DATABASE#>:</label>
+            <div class="controls"><input type="checkbox" name="backup_database" value="1"[#if BACKUP_DATABASE="1"#] checked[#endif#]></div>
+        </div>
+        <script type="text/javascript">
+            function OnChangeChecked () {    
+                var i;
+                var list="";
+                var x = document.getElementsByClassName("dir");
+                for (i = 0; i < x.length; i++) {
+                    if (x[i].checked)
+                    {
+                        if (list!="")list = list + ",";
+                        list = list + x[i].id;
+                    }
+                }
+                document.getElementById('backup_dirs').value = list;
+            }
+            function SelectAll()
+            {
+                $(".dir").prop('checked', true);
+                $("#backup_temp").prop( "checked", false );
+                OnChangeChecked();
+            };
+            function UnselectAll()
+            {
+                $(".dir").prop('checked', false);
+                OnChangeChecked();
+            };
+            function SelectStandart()
+            {
+                $("#templates").prop( "checked", true );
+                $("#img").prop( "checked", true );
+                $("#js").prop( "checked", true );
+                $("#css").prop( "checked", true );
+                $("#swf").prop( "checked", true );
+                $("#htc").prop( "checked", true );
+                $("#lib").prop( "checked", true );
+                $("#modules").prop( "checked", true );
+                $("#scripts").prop( "checked", true );
+                $("#languages").prop( "checked", true );
+                $("#php").prop( "checked", true );
+                $("#config.php").prop( "checked", true );
+                $("#cms").prop( "checked", true );
+                OnChangeChecked();
+            };
+        </script> 
+        <div class="form-group">
+            <label class="control-label"><#LANG_BAK_BACKUP_FOLDERS#>:</label>
+            <a class="btn btn-default" id="checkStandart" onclick="SelectStandart();"><#LANG_BAK_SELECT_DEFAULT#></a>
+            <a class="btn btn-default" id="checkAll" onclick="SelectAll();"><#LANG_BAK_SELECT_ALL#></a>
+            <a class="btn btn-default" id="uncheckAll" onclick="UnselectAll();"><#LANG_BAK_UNSELECT_ALL#></a>
+        </div>
+        <div class="form-group">
+        <label class="control-label"></label>
+            <div class="col-lg-7 well" style="max-height: 600px;overflow: auto;">
+            	<ul class="list-group checked-list-box">
+                    [#begin LIST_DIR#]
+                    <li class="list-group-item">
+                    <label><input class="dir" type="checkbox" id="[#DIR_NAME#]" name="[#DIR_NAME#]" value="[#DIR_CHECK#]"[#if DIR_CHECK='1'#] checked[#endif#] onchange="OnChangeChecked();">[#DIR_NAME#]</label>
+                    </li>
+                    [#end LIST_DIR#]
+                </ul>
+            </div>
+        </div>
+        <div class="form-actions">
+            <button type="submit" name="subm" value="Submit" class="btn btn-primary"><#LANG_UPDATE#></button>
+            <input type="hidden" name="view_mode" value="">
+            <input type="hidden" id="backup_dirs" name="backup_dirs" value="<#BACKUP_DIRS#>">
+            <input type="hidden" name="mode" value="update_settings">
+		</div>
+	</fieldset>
+	</div>
+    <div id="panel_settings_notify" class="tab-pane fade in">
+        <br>
+        <fieldset>
+        <div class="form-group ">
+            <label class="control-label" for="inputTitle"><#LANG_BAK_NOTIFY_SCRIPT#>:</label>
+            <div class="col-lg-5">
+                <select name="script_create_id" class="form-control [#if ERR_SCRIPT_ID#]alert-danger[#endif#]">
+                    <option value="0">
+                    [#begin SCRIPTS#]
+                    <option value="[#ID#]"[#if ID="<#SCRIPT_CREATE_ID#>"#] selected[#endif#]>[#TITLE#]
+                    [#end SCRIPTS#]
+                </select>
+            </div>
+        </div> 
+		<div class="form-actions">
+            <button type="submit" name="subm" value="Submit" class="btn btn-primary"><#LANG_UPDATE#></button>
+            <input type="hidden" name="view_mode" value="">
+            <input type="hidden" name="mode" value="update_settings">
+		</div>
+	</fieldset>
+    </div>
+	<div id="panel_backups" class="tab-pane fade in">
+		<br>
+		<p>
+		<a href="?mode=backup_iframe&command=create" class="btn btn-default"><span class="glyphicon glyphicon-plus"></span> <#LANG_BAK_CREATE#></a>&nbsp; <#LANG_BAK_FREESPACE#>: <#FREESPACE#>
+		</p> 
+		<table width=100% border=0><tr>
+		<td valign=top>
+		<!-- results -->
+		[#if RESULT#]
+		<!-- paging -->
+		[#if PAGES#]
+		<table border=0>
+		<td align=right><b>Pages:</b>&nbsp;</td>
+		[#begin PREVPAGE#]<td><a href="?view_mode=<#VIEW_MODE#>&mode=<#MODE#>&save_qry=1&page=[#NUM#]">&lt;&lt;&lt;</a></td>[#end PREVPAGE#]
+		<td>
+		[#begin PAGES#]
+		[#if !SELECTED#]<a href="?view_mode=<#VIEW_MODE#>&mode=<#MODE#>&save_qry=1&page=[#NUM#]">[#else#]<b>[#endif#][#NUM#]</b></a>
+		[#end PAGES#]
+		</td>
+		[#begin NEXTPAGE#]<td><a href="?view_mode=<#VIEW_MODE#>&mode=<#MODE#>&save_qry=1&page=[#NUM#]">&gt;&gt;&gt;</a></td>[#end NEXTPAGE#]
+		</table>
+		[#endif PAGES#]
+		<!-- / paging -->
+		<!-- search results (list) -->
+		<form action="?" method="post" name="frmList_backup_instances" style="padding:0px" class="form">
+		<table  align=center class="table table-striped">
+        <thead>
+        <th>Name</th>
+        <th>Date</th> 
+        <th>Size</th>
+        <th>&nbsp;</th>
+        </tr>
+        </thead>
+		<tbody>
+		[#begin RESULT#]
+		<tr style="height:52px" class="hover_btn2">
+		 <td style="vertical-align:middle">
+		  <span class="glyphicon glyphicon-file"></span> <b>[#NAME#]</a></b>
+		 </td>
+		 <td style="vertical-align:middle">
+		   [#CREATED#]
+		 </td>
+		 <td style="vertical-align:middle">
+		   [#SIZE#]
+		 </td>
+		[#if URL!=""#]
+			<td valign="top"><a href="[#URL#]" class="btn btn-default"><span class="glyphicon glyphicon-cloud-download"></span> <#LANG_BAK_DOWNLOAD#></a></td> 
+		[#else#]
+			<td colspan="1">&nbsp;</td>
+		[#endif#] 
+		 <td style="vertical-align:middle" width="1%" nowrap>
+          <div style="width:120px">
+		  [#if "<#ACTION#>"=="admin"#]
+            [#if "<#RESTORE#>"=="1"#]
+			<a href="?mode=backup_iframe&command=restore&backup=[#NAME#]" onClick="return confirm('Are you sure? Please confirm.')" class="btn btn-default" title="<#LANG_RESTORE#>"><i class="glyphicon glyphicon-refresh"></i></a>
+            [#endif#] 
+			<a href="?mode=delete_backup&name=[#NAME#]" onClick="return confirm('Are you sure? Please confirm.')" class="btn btn-default" title="<#LANG_DELETE#>"><i class="glyphicon glyphicon-remove"></i></a>
+		  [#endif ACTION#]
+		  </div>
+		 </td>
+		</tr>
+		[#end RESULT#]
+		</tbody>
+		</table>
+		<input type="hidden" name="data_source" value="<#DATA_SOURCE#>">
+		<input type="hidden" name="view_mode" value="multiple_backup_instances">
+		</form>
+		<!-- / search results (list) -->
+		<!-- paging -->
+		[#if PAGES#]
+		<table border=0>
+		<td align=right><b>Pages:</b>&nbsp;</td>
+		[#begin PREVPAGE#]<td><a href="?view_mode=<#VIEW_MODE#>&mode=<#MODE#>&save_qry=1&page=[#NUM#]">&lt;&lt;&lt;</a></td>[#end PREVPAGE#]
+		<td>
+		[#begin PAGES#]
+		[#if !SELECTED#]<a href="?view_mode=<#VIEW_MODE#>&mode=<#MODE#>&save_qry=1&page=[#NUM#]">[#else#]<b>[#endif#][#NUM#]</b></a>
+		[#end PAGES#]
+		</td>
+		[#begin NEXTPAGE#]<td><a href="?view_mode=<#VIEW_MODE#>&mode=<#MODE#>&save_qry=1&page=[#NUM#]">&gt;&gt;&gt;</a></td>[#end NEXTPAGE#]
+		</table>
+		[#endif PAGES#]
+		<!-- / paging -->
+		[#else RESULT#]
+		<p>
+		<font color="red"><#LANG_NO_RECORDS_FOUND#></font>
+		</p>
+		[#endif RESULT#]
+		<!-- / results -->
+		</td></tr></table> 
+	</div>
+</div>
+</form>
+<script type="text/javascript">
+$('#tab a:first').tab('show');
+$('.myIframe').css('height', $(window).height()+'px');
+</script>
+<script>
+var script = document.createElement('script');
+script.src = "../templates/backup/bootstrap-select.min.js"
+document.body.appendChild(script);
+script.onload = function() {
+	// после подгрузки js-файла перерисуем элемент select
+	$('.selectpicker').selectpicker('render');
+}
+</script> 
+
+[#endif MODE#]
+
+
+<!-- About -->
+<div class="modal fade" id="about" tabindex="-1" role="dialog" aria-labelledby="about1" aria-hidden="true">
+<!-- <div id="about" class="modal hide"> -->
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+				<h4 class="modal-title">Backup</h4>
+			</div>
+			<div class="modal-body">
+				<p class="float-left"> Модуль резервного копирования.<br>
+				Обсуждение модуля <a href="http://majordomo.smartliving.ru/forum/viewtopic.php?f=5&t=4722" target="_blank">здесь</a>.<br>
+				</p>
+				<hr size="1">
+				<p class="float-left">
+				Поддержать автора материально:
+				<ul>
+                    <li>Yandex: <a href="https://money.yandex.ru/to/410012076838296/100"  target="_blank">410012076838296</a></li>
+                    <li>WebMoney: R366396529511</li>
+                    <li><a href="https://connect.smartliving.ru/tasks/44.html"  target="_blank">Connect</a></li>
+				</ul>
+                </p>
+			</div>
+			
+			<div class="modal-footer">
+				<div class="pull-left">Telegram: <a href="https://telegram.me/Eraser1981" target="_blank">@Eraser1981</a> :)</div>
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div>

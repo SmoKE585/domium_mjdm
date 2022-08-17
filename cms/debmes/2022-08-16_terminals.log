@@ -1,0 +1,14 @@
+16:36:05 0.77789800 Processing SAY: {"level":0,"message":123,"member_id":0,"image":"","BREAK":false}
+18:02:46 0.11749600 Processing SAY: {"level":0,"message":"Статус связи изменился на Жёлтый.","member_id":0,"image":"","BREAK":false}
+18:02:46 0.12943800 Processing SAY: {"level":0,"message":"Нет доступа в Интернет","member_id":0,"image":"","BREAK":false}
+19:00:00 0.16745800 Processing HOURLY: {"BREAK":false}
+19:00:00 0.18588100 Processing SAY: {"level":1,"message":"19 часов","member_id":0,"image":"","BREAK":false}
+20:00:00 0.35525700 Processing HOURLY: {"BREAK":false}
+20:00:00 0.37051400 Processing SAY: {"level":1,"message":"20 часов","member_id":0,"image":"","BREAK":false}
+20:00:00 0.40387300 Processing SAY: {"level":0,"message":"Режим Ночной активирован.","member_id":0,"image":"","BREAK":false}
+21:00:00 0.63263900 Processing HOURLY: {"BREAK":false}
+21:00:00 0.64966800 Processing SAY: {"level":1,"message":"21 час","member_id":0,"image":"","BREAK":false}
+22:00:00 0.12049900 Processing HOURLY: {"BREAK":false}
+22:00:00 0.13666900 Processing SAY: {"level":1,"message":"22 часа","member_id":0,"image":"","BREAK":false}
+23:00:00 0.88993300 Processing HOURLY: {"BREAK":false}
+23:00:00 0.90669700 Processing SAY: {"level":1,"message":"23 часа","member_id":0,"image":"","BREAK":false}

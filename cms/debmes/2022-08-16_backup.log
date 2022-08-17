@@ -1,0 +1,15 @@
+18:02:37 0.01602500 Backing up files...
+18:02:37 0.01612400 Backing up dir /var/www/html/cms/avatars to /var/www/html/backup/20220816/cms/avatars
+18:02:37 0.01683500 Backing up dir /var/www/html/cms/files to /var/www/html/backup/20220816/cms/files
+18:02:37 0.01721400 Backing up dir /var/www/html/cms/html to /var/www/html/backup/20220816/cms/html
+18:02:37 0.01756700 Backing up dir /var/www/html/cms/icons to /var/www/html/backup/20220816/cms/icons
+18:02:37 0.01773800 Backing up dir /var/www/html/cms/images to /var/www/html/backup/20220816/cms/images
+18:02:37 0.01831300 Backing up dir /var/www/html/cms/layouts to /var/www/html/backup/20220816/cms/layouts
+18:02:37 0.01843300 Backing up dir /var/www/html/cms/modules_installed to /var/www/html/backup/20220816/cms/modules_installed
+18:02:37 0.02049300 Backing up dir /var/www/html/cms/products to /var/www/html/backup/20220816/cms/products
+18:02:37 0.02081500 Backing up dir /var/www/html/cms/scenes to /var/www/html/backup/20220816/cms/scenes
+18:02:37 0.18772900 Backing up dir /var/www/html/cms/sounds to /var/www/html/backup/20220816/cms/sounds
+18:02:37 0.18800600 Backing up dir /var/www/html/cms/templates to /var/www/html/backup/20220816/cms/templates
+18:02:37 0.18816400 Backing up dir /var/www/html/cms/texts to /var/www/html/backup/20220816/cms/texts
+18:02:37 0.18831000 Backing up dir /var/www/html/cms/weather to /var/www/html/backup/20220816/cms/weather
+18:02:37 0.18845900 Backing up database db_terminal to /var/www/html/backup/20220816/db_terminal.sql

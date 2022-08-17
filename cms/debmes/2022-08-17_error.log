@@ -1,0 +1,282 @@
+14:53:15 0.20385600 Error registered (type: sql):
+1146: Table 'db_terminal.actions_log' doesn't exist
+INSERT INTO `actions_log`(`ADDED`, `USER`, `TERMINAL`, `ACTION_TYPE`, `TITLE`, `IP`) VALUES('2022-08-17 14:53:15', 'admin', 'MAIN', 'control_panel_enter', 'admin', '172.27.168.168')
+Backtrace:
+#0 /var/www/html/lib/mysqli.class.php(397): registerError()
+#1 /var/www/html/lib/mysqli.class.php(188): mysql->Error()
+#2 /var/www/html/lib/mysqli.class.php(321): mysql->Exec()
+#3 /var/www/html/lib/sqlFunctions.class.php(116): mysql->Insert()
+#4 /var/www/html/lib/common.class.php(1203): SQLInsert()
+#5 /var/www/html/modules/panel.class.php(117): logAction()
+#6 /var/www/html/admin.php(43): panel->run()
+#7 {main}
+14:53:19 0.95490800 Error registered (type: sql):
+1146: Table 'db_terminal.actions_log' doesn't exist
+INSERT INTO `actions_log`(`ADDED`, `USER`, `TERMINAL`, `ACTION_TYPE`, `TITLE`, `IP`) VALUES('2022-08-17 14:53:19', 'admin', 'MAIN', 'control_panel_enter', 'admin', '172.27.168.168')
+Backtrace:
+#0 /var/www/html/lib/mysqli.class.php(397): registerError()
+#1 /var/www/html/lib/mysqli.class.php(188): mysql->Error()
+#2 /var/www/html/lib/mysqli.class.php(321): mysql->Exec()
+#3 /var/www/html/lib/sqlFunctions.class.php(116): mysql->Insert()
+#4 /var/www/html/lib/common.class.php(1203): SQLInsert()
+#5 /var/www/html/modules/panel.class.php(117): logAction()
+#6 /var/www/html/admin.php(43): panel->run()
+#7 {main}
+14:53:28 0.02623800 Error registered (type: sql):
+1146: Table 'db_terminal.actions_log' doesn't exist
+INSERT INTO `actions_log`(`ADDED`, `USER`, `TERMINAL`, `ACTION_TYPE`, `TITLE`, `IP`) VALUES('2022-08-17 14:53:28', 'admin', 'MAIN', 'control_panel_enter', 'admin', '172.27.168.168')
+Backtrace:
+#0 /var/www/html/lib/mysqli.class.php(397): registerError()
+#1 /var/www/html/lib/mysqli.class.php(188): mysql->Error()
+#2 /var/www/html/lib/mysqli.class.php(321): mysql->Exec()
+#3 /var/www/html/lib/sqlFunctions.class.php(116): mysql->Insert()
+#4 /var/www/html/lib/common.class.php(1203): SQLInsert()
+#5 /var/www/html/modules/panel.class.php(117): logAction()
+#6 /var/www/html/admin.php(43): panel->run()
+#7 {main}
+14:54:02 0.41380300 Error registered (type: sql):
+1146: Table 'db_terminal.actions_log' doesn't exist
+INSERT INTO `actions_log`(`ADDED`, `USER`, `TERMINAL`, `ACTION_TYPE`, `TITLE`, `IP`) VALUES('2022-08-17 14:54:02', 'admin', 'MAIN', 'control_panel_enter', 'admin', '172.27.168.168')
+Backtrace:
+#0 /var/www/html/lib/mysqli.class.php(397): registerError()
+#1 /var/www/html/lib/mysqli.class.php(188): mysql->Error()
+#2 /var/www/html/lib/mysqli.class.php(321): mysql->Exec()
+#3 /var/www/html/lib/sqlFunctions.class.php(116): mysql->Insert()
+#4 /var/www/html/lib/common.class.php(1203): SQLInsert()
+#5 /var/www/html/modules/panel.class.php(117): logAction()
+#6 /var/www/html/admin.php(43): panel->run()
+#7 {main}
+21:44:26 0.13432100 Error registered (type: sql):
+1292: Incorrect datetime value: '' for column 'EXPIRE' at row 1
+INSERT INTO `events`(`EVENT_NAME`, `EVENT_TYPE`, `DETAILS`, `ADDED`, `EXPIRE`, `PROCESSED`) VALUES('path/to/event', 'system', '{\"param1\":\"value1\"}', '2022-08-17 21:44:26', '', '1')
+Backtrace:
+#0 /var/www/html/lib/mysqli.class.php(397): registerError()
+#1 /var/www/html/lib/mysqli.class.php(188): mysql->Error()
+#2 /var/www/html/lib/mysqli.class.php(321): mysql->Exec()
+#3 /var/www/html/lib/sqlFunctions.class.php(116): mysql->Insert()
+#4 /var/www/html/modules/events/events.class.php(316): SQLInsert()
+#5 /var/www/html/lib/events.class.php(14): events->registerEvent()
+#6 /var/www/html/modules/scripts/scripts.class.php(164) : eval()'d code(1): registerEvent()
+#7 /var/www/html/modules/scripts/scripts.class.php(164): eval()
+#8 /var/www/html/lib/common.class.php(431): scripts->runScript()
+#9 /var/www/html/objects/index.php(183): runScript()
+#10 {main}
+21:45:49 0.01636800 Error registered (type: sql):
+1292: Incorrect datetime value: '' for column 'EXPIRE' at row 1
+INSERT INTO `events`(`EVENT_NAME`, `EVENT_TYPE`, `DETAILS`, `ADDED`, `EXPIRE`, `PROCESSED`) VALUES('path/to/event', 'system', '{\"param1\":\"value1\"}', '2022-08-17 21:45:49', '', '1')
+Backtrace:
+#0 /var/www/html/lib/mysqli.class.php(397): registerError()
+#1 /var/www/html/lib/mysqli.class.php(188): mysql->Error()
+#2 /var/www/html/lib/mysqli.class.php(321): mysql->Exec()
+#3 /var/www/html/lib/sqlFunctions.class.php(116): mysql->Insert()
+#4 /var/www/html/modules/events/events.class.php(316): SQLInsert()
+#5 /var/www/html/lib/events.class.php(14): events->registerEvent()
+#6 /var/www/html/modules/scripts/scripts.class.php(164) : eval()'d code(1): registerEvent()
+#7 /var/www/html/modules/scripts/scripts.class.php(164): eval()
+#8 /var/www/html/lib/common.class.php(431): scripts->runScript()
+#9 /var/www/html/objects/index.php(183): runScript()
+#10 {main}
+21:45:49 0.80702800 Error registered (type: sql):
+1292: Incorrect datetime value: '' for column 'EXPIRE' at row 1
+INSERT INTO `events`(`EVENT_NAME`, `EVENT_TYPE`, `DETAILS`, `ADDED`, `EXPIRE`, `PROCESSED`) VALUES('path/to/event', 'system', '{\"param1\":\"value1\"}', '2022-08-17 21:45:49', '', '1')
+Backtrace:
+#0 /var/www/html/lib/mysqli.class.php(397): registerError()
+#1 /var/www/html/lib/mysqli.class.php(188): mysql->Error()
+#2 /var/www/html/lib/mysqli.class.php(321): mysql->Exec()
+#3 /var/www/html/lib/sqlFunctions.class.php(116): mysql->Insert()
+#4 /var/www/html/modules/events/events.class.php(316): SQLInsert()
+#5 /var/www/html/lib/events.class.php(14): events->registerEvent()
+#6 /var/www/html/modules/scripts/scripts.class.php(164) : eval()'d code(1): registerEvent()
+#7 /var/www/html/modules/scripts/scripts.class.php(164): eval()
+#8 /var/www/html/lib/common.class.php(431): scripts->runScript()
+#9 /var/www/html/objects/index.php(183): runScript()
+#10 {main}
+21:45:50 0.62335300 Error registered (type: sql):
+1292: Incorrect datetime value: '' for column 'EXPIRE' at row 1
+INSERT INTO `events`(`EVENT_NAME`, `EVENT_TYPE`, `DETAILS`, `ADDED`, `EXPIRE`, `PROCESSED`) VALUES('path/to/event', 'system', '{\"param1\":\"value1\"}', '2022-08-17 21:45:50', '', '1')
+Backtrace:
+#0 /var/www/html/lib/mysqli.class.php(397): registerError()
+#1 /var/www/html/lib/mysqli.class.php(188): mysql->Error()
+#2 /var/www/html/lib/mysqli.class.php(321): mysql->Exec()
+#3 /var/www/html/lib/sqlFunctions.class.php(116): mysql->Insert()
+#4 /var/www/html/modules/events/events.class.php(316): SQLInsert()
+#5 /var/www/html/lib/events.class.php(14): events->registerEvent()
+#6 /var/www/html/modules/scripts/scripts.class.php(164) : eval()'d code(1): registerEvent()
+#7 /var/www/html/modules/scripts/scripts.class.php(164): eval()
+#8 /var/www/html/lib/common.class.php(431): scripts->runScript()
+#9 /var/www/html/objects/index.php(183): runScript()
+#10 {main}
+21:46:00 0.80275800 Error registered (type: sql):
+1292: Incorrect datetime value: '' for column 'EXPIRE' at row 1
+INSERT INTO `events`(`EVENT_NAME`, `EVENT_TYPE`, `DETAILS`, `ADDED`, `EXPIRE`, `PROCESSED`) VALUES('path/to/event', 'system', '{\"param1\":\"value1\"}', '2022-08-17 21:46:00', '', '1')
+Backtrace:
+#0 /var/www/html/lib/mysqli.class.php(397): registerError()
+#1 /var/www/html/lib/mysqli.class.php(188): mysql->Error()
+#2 /var/www/html/lib/mysqli.class.php(321): mysql->Exec()
+#3 /var/www/html/lib/sqlFunctions.class.php(116): mysql->Insert()
+#4 /var/www/html/modules/events/events.class.php(316): SQLInsert()
+#5 /var/www/html/lib/events.class.php(14): events->registerEvent()
+#6 /var/www/html/modules/scripts/scripts.class.php(164) : eval()'d code(1): registerEvent()
+#7 /var/www/html/modules/scripts/scripts.class.php(164): eval()
+#8 /var/www/html/lib/common.class.php(431): scripts->runScript()
+#9 /var/www/html/objects/index.php(183): runScript()
+#10 {main}
+21:46:01 0.57697700 Error registered (type: sql):
+1292: Incorrect datetime value: '' for column 'EXPIRE' at row 1
+INSERT INTO `events`(`EVENT_NAME`, `EVENT_TYPE`, `DETAILS`, `ADDED`, `EXPIRE`, `PROCESSED`) VALUES('path/to/event', 'system', '{\"param1\":\"value1\"}', '2022-08-17 21:46:01', '', '1')
+Backtrace:
+#0 /var/www/html/lib/mysqli.class.php(397): registerError()
+#1 /var/www/html/lib/mysqli.class.php(188): mysql->Error()
+#2 /var/www/html/lib/mysqli.class.php(321): mysql->Exec()
+#3 /var/www/html/lib/sqlFunctions.class.php(116): mysql->Insert()
+#4 /var/www/html/modules/events/events.class.php(316): SQLInsert()
+#5 /var/www/html/lib/events.class.php(14): events->registerEvent()
+#6 /var/www/html/modules/scripts/scripts.class.php(164) : eval()'d code(1): registerEvent()
+#7 /var/www/html/modules/scripts/scripts.class.php(164): eval()
+#8 /var/www/html/lib/common.class.php(431): scripts->runScript()
+#9 /var/www/html/objects/index.php(183): runScript()
+#10 {main}
+21:46:09 0.92683400 Error registered (type: sql):
+1292: Incorrect datetime value: '' for column 'EXPIRE' at row 1
+INSERT INTO `events`(`EVENT_NAME`, `EVENT_TYPE`, `DETAILS`, `ADDED`, `EXPIRE`, `PROCESSED`) VALUES('path/to/event', 'system', '[{\"param1\":\"value1\"}]', '2022-08-17 21:46:09', '', '1')
+Backtrace:
+#0 /var/www/html/lib/mysqli.class.php(397): registerError()
+#1 /var/www/html/lib/mysqli.class.php(188): mysql->Error()
+#2 /var/www/html/lib/mysqli.class.php(321): mysql->Exec()
+#3 /var/www/html/lib/sqlFunctions.class.php(116): mysql->Insert()
+#4 /var/www/html/modules/events/events.class.php(316): SQLInsert()
+#5 /var/www/html/lib/events.class.php(14): events->registerEvent()
+#6 /var/www/html/modules/scripts/scripts.class.php(164) : eval()'d code(1): registerEvent()
+#7 /var/www/html/modules/scripts/scripts.class.php(164): eval()
+#8 /var/www/html/lib/common.class.php(431): scripts->runScript()
+#9 /var/www/html/objects/index.php(183): runScript()
+#10 {main}
+21:46:10 0.95207700 Error registered (type: sql):
+1292: Incorrect datetime value: '' for column 'EXPIRE' at row 1
+INSERT INTO `events`(`EVENT_NAME`, `EVENT_TYPE`, `DETAILS`, `ADDED`, `EXPIRE`, `PROCESSED`) VALUES('path/to/event', 'system', '[{\"param1\":\"value1\"}]', '2022-08-17 21:46:10', '', '1')
+Backtrace:
+#0 /var/www/html/lib/mysqli.class.php(397): registerError()
+#1 /var/www/html/lib/mysqli.class.php(188): mysql->Error()
+#2 /var/www/html/lib/mysqli.class.php(321): mysql->Exec()
+#3 /var/www/html/lib/sqlFunctions.class.php(116): mysql->Insert()
+#4 /var/www/html/modules/events/events.class.php(316): SQLInsert()
+#5 /var/www/html/lib/events.class.php(14): events->registerEvent()
+#6 /var/www/html/modules/scripts/scripts.class.php(164) : eval()'d code(1): registerEvent()
+#7 /var/www/html/modules/scripts/scripts.class.php(164): eval()
+#8 /var/www/html/lib/common.class.php(431): scripts->runScript()
+#9 /var/www/html/objects/index.php(183): runScript()
+#10 {main}
+21:46:18 0.15493600 Error registered (type: sql):
+1292: Incorrect datetime value: '' for column 'EXPIRE' at row 1
+INSERT INTO `events`(`EVENT_NAME`, `EVENT_TYPE`, `DETAILS`, `ADDED`, `EXPIRE`, `PROCESSED`) VALUES('path/to/event', 'system', '{\"param1\":\"value1\"}', '2022-08-17 21:46:18', '', '1')
+Backtrace:
+#0 /var/www/html/lib/mysqli.class.php(397): registerError()
+#1 /var/www/html/lib/mysqli.class.php(188): mysql->Error()
+#2 /var/www/html/lib/mysqli.class.php(321): mysql->Exec()
+#3 /var/www/html/lib/sqlFunctions.class.php(116): mysql->Insert()
+#4 /var/www/html/modules/events/events.class.php(316): SQLInsert()
+#5 /var/www/html/lib/events.class.php(14): events->registerEvent()
+#6 /var/www/html/modules/scripts/scripts.class.php(164) : eval()'d code(1): registerEvent()
+#7 /var/www/html/modules/scripts/scripts.class.php(164): eval()
+#8 /var/www/html/lib/common.class.php(431): scripts->runScript()
+#9 /var/www/html/objects/index.php(183): runScript()
+#10 {main}
+21:47:07 0.43462100 Error registered (type: sql):
+1292: Incorrect datetime value: '' for column 'EXPIRE' at row 1
+INSERT INTO `events`(`EVENT_NAME`, `EVENT_TYPE`, `DETAILS`, `ADDED`, `EXPIRE`, `PROCESSED`) VALUES('path/to/event', 'system', '{\"param1\":\"value1\"}', '2022-08-17 21:47:07', '', '1')
+Backtrace:
+#0 /var/www/html/lib/mysqli.class.php(397): registerError()
+#1 /var/www/html/lib/mysqli.class.php(188): mysql->Error()
+#2 /var/www/html/lib/mysqli.class.php(321): mysql->Exec()
+#3 /var/www/html/lib/sqlFunctions.class.php(116): mysql->Insert()
+#4 /var/www/html/modules/events/events.class.php(316): SQLInsert()
+#5 /var/www/html/lib/events.class.php(14): events->registerEvent()
+#6 /var/www/html/modules/scripts/scripts.class.php(164) : eval()'d code(1): registerEvent()
+#7 /var/www/html/modules/scripts/scripts.class.php(164): eval()
+#8 /var/www/html/lib/common.class.php(431): scripts->runScript()
+#9 /var/www/html/objects/index.php(183): runScript()
+#10 {main}
+21:51:38 0.17680600 Error registered (type: sql):
+1048: Column 'LINKED_PROPERTY' cannot be null
+UPDATE `events_params` SET `EVENT_ID`='6', `TITLE`='param1', `VALUE`='value1', `UPDATED`='2022-08-17 21:49:28', `LINKED_OBJECT`='TestObj', `LINKED_PROPERTY`=NULL, `LINKED_METHOD`='test' WHERE ID = '3'
+Backtrace:
+#0 /var/www/html/lib/mysqli.class.php(397): registerError()
+#1 /var/www/html/lib/mysqli.class.php(188): mysql->Error()
+#2 /var/www/html/lib/mysqli.class.php(289): mysql->Exec()
+#3 /var/www/html/lib/sqlFunctions.class.php(134): mysql->Update()
+#4 /var/www/html/modules/events/events_edit.inc.php(26): SQLUpdate()
+#5 /var/www/html/modules/events/events.class.php(451): require('/var/www/html/m...')
+#6 /var/www/html/modules/events/events.class.php(166): events->edit_events()
+#7 /var/www/html/modules/events/events.class.php(98): events->admin()
+#8 /var/www/html/lib/jTemplate.class.php(640) : eval()'d code(8): events->run()
+#9 /var/www/html/lib/jTemplate.class.php(640): eval()
+#10 /var/www/html/lib/jTemplate.class.php(181): jTemplate->parseModules()
+#11 /var/www/html/lib/jTemplate.class.php(98): jTemplate->parse()
+#12 /var/www/html/lib/parser.class.php(93): jTemplate->__construct()
+#13 /var/www/html/lib/parser.class.php(63): parser->jtemplate_parse()
+#14 /var/www/html/modules/panel.class.php(249): parser->__construct()
+#15 /var/www/html/admin.php(43): panel->run()
+#16 {main}
+21:51:58 0.11506300 Error registered (type: sql):
+1048: Column 'LINKED_PROPERTY' cannot be null
+UPDATE `events_params` SET `EVENT_ID`='6', `TITLE`='param1', `VALUE`='value1', `UPDATED`='2022-08-17 21:49:28', `LINKED_OBJECT`='TestObj', `LINKED_PROPERTY`=NULL, `LINKED_METHOD`='test' WHERE ID = '3'
+Backtrace:
+#0 /var/www/html/lib/mysqli.class.php(397): registerError()
+#1 /var/www/html/lib/mysqli.class.php(188): mysql->Error()
+#2 /var/www/html/lib/mysqli.class.php(289): mysql->Exec()
+#3 /var/www/html/lib/sqlFunctions.class.php(134): mysql->Update()
+#4 /var/www/html/modules/events/events_edit.inc.php(26): SQLUpdate()
+#5 /var/www/html/modules/events/events.class.php(451): require('/var/www/html/m...')
+#6 /var/www/html/modules/events/events.class.php(166): events->edit_events()
+#7 /var/www/html/modules/events/events.class.php(98): events->admin()
+#8 /var/www/html/lib/jTemplate.class.php(640) : eval()'d code(8): events->run()
+#9 /var/www/html/lib/jTemplate.class.php(640): eval()
+#10 /var/www/html/lib/jTemplate.class.php(181): jTemplate->parseModules()
+#11 /var/www/html/lib/jTemplate.class.php(98): jTemplate->parse()
+#12 /var/www/html/lib/parser.class.php(93): jTemplate->__construct()
+#13 /var/www/html/lib/parser.class.php(63): parser->jtemplate_parse()
+#14 /var/www/html/modules/panel.class.php(249): parser->__construct()
+#15 /var/www/html/admin.php(43): panel->run()
+#16 {main}
+21:52:50 0.00990300 Error registered (type: sql):
+1048: Column 'LINKED_METHOD' cannot be null
+UPDATE `events_params` SET `EVENT_ID`='6', `TITLE`='updated', `VALUE`='1660762168', `UPDATED`='2022-08-17 21:49:28', `LINKED_OBJECT`='', `LINKED_PROPERTY`=NULL, `LINKED_METHOD`=NULL WHERE ID = '4'
+Backtrace:
+#0 /var/www/html/lib/mysqli.class.php(397): registerError()
+#1 /var/www/html/lib/mysqli.class.php(188): mysql->Error()
+#2 /var/www/html/lib/mysqli.class.php(289): mysql->Exec()
+#3 /var/www/html/lib/sqlFunctions.class.php(134): mysql->Update()
+#4 /var/www/html/modules/events/events_edit.inc.php(26): SQLUpdate()
+#5 /var/www/html/modules/events/events.class.php(451): require('/var/www/html/m...')
+#6 /var/www/html/modules/events/events.class.php(166): events->edit_events()
+#7 /var/www/html/modules/events/events.class.php(98): events->admin()
+#8 /var/www/html/lib/jTemplate.class.php(640) : eval()'d code(8): events->run()
+#9 /var/www/html/lib/jTemplate.class.php(640): eval()
+#10 /var/www/html/lib/jTemplate.class.php(181): jTemplate->parseModules()
+#11 /var/www/html/lib/jTemplate.class.php(98): jTemplate->parse()
+#12 /var/www/html/lib/parser.class.php(93): jTemplate->__construct()
+#13 /var/www/html/lib/parser.class.php(63): parser->jtemplate_parse()
+#14 /var/www/html/modules/panel.class.php(249): parser->__construct()
+#15 /var/www/html/admin.php(43): panel->run()
+#16 {main}
+21:56:58 0.44484300 Error registered (type: sql):
+1048: Column 'LINKED_METHOD' cannot be null
+UPDATE `events_params` SET `EVENT_ID`='6', `TITLE`='param1', `VALUE`='value1', `UPDATED`='2022-08-17 21:53:54', `LINKED_OBJECT`='', `LINKED_PROPERTY`=NULL, `LINKED_METHOD`=NULL WHERE ID = '3'
+Backtrace:
+#0 /var/www/html/lib/mysqli.class.php(397): registerError()
+#1 /var/www/html/lib/mysqli.class.php(188): mysql->Error()
+#2 /var/www/html/lib/mysqli.class.php(289): mysql->Exec()
+#3 /var/www/html/lib/sqlFunctions.class.php(134): mysql->Update()
+#4 /var/www/html/modules/events/events_edit.inc.php(26): SQLUpdate()
+#5 /var/www/html/modules/events/events.class.php(451): require('/var/www/html/m...')
+#6 /var/www/html/modules/events/events.class.php(166): events->edit_events()
+#7 /var/www/html/modules/events/events.class.php(98): events->admin()
+#8 /var/www/html/lib/jTemplate.class.php(640) : eval()'d code(8): events->run()
+#9 /var/www/html/lib/jTemplate.class.php(640): eval()
+#10 /var/www/html/lib/jTemplate.class.php(181): jTemplate->parseModules()
+#11 /var/www/html/lib/jTemplate.class.php(98): jTemplate->parse()
+#12 /var/www/html/lib/parser.class.php(93): jTemplate->__construct()
+#13 /var/www/html/lib/parser.class.php(63): parser->jtemplate_parse()
+#14 /var/www/html/modules/panel.class.php(249): parser->__construct()
+#15 /var/www/html/admin.php(43): panel->run()
+#16 {main}

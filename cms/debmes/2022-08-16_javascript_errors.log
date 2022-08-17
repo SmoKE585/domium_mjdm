@@ -1,0 +1,85 @@
+13:24:15 0.62644900  URL: http://192.168.45.100/ - Uncaught SyntaxError: Unexpected token '<', "<html>
+<h"... is not valid JSON; line: 1
+13:24:19 0.83140000  URL: http://192.168.45.100/ - Uncaught TypeError: Failed to set the 'volume' property on 'HTMLMediaElement': The provided double value is non-finite.; line: 478
+13:24:20 0.03851500  URL: http://192.168.45.100/ - Uncaught SyntaxError: Unexpected token '<', "<html>
+<h"... is not valid JSON; line: 1
+13:24:28 0.06544600  URL: http://192.168.45.100/admin.php - Uncaught SyntaxError: Unexpected token '<', "         <html>
+  "... is not valid JSON; line: 1
+13:25:44 0.10643500  URL: http://192.168.45.100/admin.php - Uncaught SyntaxError: Unexpected token '<', "         <html>
+  "... is not valid JSON; line: 1
+13:25:49 0.86160000  URL: http://192.168.45.100/admin.php - Uncaught ReferenceError: wsSocket is not defined; line: 49
+13:25:50 0.05593900  URL: http://192.168.45.100/ - Uncaught TypeError: Failed to set the 'volume' property on 'HTMLMediaElement': The provided double value is non-finite.; line: 478
+13:25:50 0.18080100  URL: http://192.168.45.100/ - Uncaught SyntaxError: Unexpected token '<', "<html>
+<h"... is not valid JSON; line: 1
+13:25:55 0.41619600  URL: http://192.168.45.100/admin.php - Uncaught ReferenceError: wsSocket is not defined; line: 49
+13:27:27 0.06838500  URL: http://192.168.45.100/admin.php - Uncaught ReferenceError: wsSocket is not defined; line: 49
+13:27:31 0.74433800  URL: http://192.168.45.100/admin.php - Uncaught ReferenceError: wsSocket is not defined; line: 49
+13:27:35 0.52790000  URL: http://192.168.45.100/admin.php?pd=cGFuZWw6e2FjdGlvbj14cmF5fQ%3D%3Dpz_&md=xray&inst=adm&view_mode=services - Uncaught SyntaxError: Unexpected token '<', "         <html>
+  "... is not valid JSON; line: 1
+13:30:06 0.86308000  URL: http://192.168.45.100/admin.php?pd=cGFuZWw6e2FjdGlvbj14cmF5fQ%3D%3Dpz_&md=xray&inst=adm&view_mode=services - Uncaught SyntaxError: Unexpected token '<', "         <html>
+  "... is not valid JSON; line: 1
+13:30:08 0.91739100  URL: http://192.168.45.100/admin.php - Uncaught SyntaxError: Unexpected token '<', "         <html>
+  "... is not valid JSON; line: 1
+13:30:11 0.95002800  URL: http://192.168.45.100/admin.php - Uncaught SyntaxError: Unexpected token '<', "         <html>
+  "... is not valid JSON; line: 1
+13:32:13 0.83584200  URL: http://192.168.45.100/admin.php - Uncaught SyntaxError: Unexpected token '<', "         <html>
+  "... is not valid JSON; line: 1
+13:32:17 0.19442500  URL: http://192.168.45.100/admin.php - Uncaught SyntaxError: Unexpected token '<', "         <html>
+  "... is not valid JSON; line: 1
+13:32:24 0.00868200  URL: http://192.168.45.100/admin.php - Uncaught SyntaxError: Unexpected token '<', "         <html>
+  "... is not valid JSON; line: 1
+13:32:36 0.34907300  URL: http://192.168.45.100/admin.php - Uncaught SyntaxError: Unexpected token '<', "         <html>
+  "... is not valid JSON; line: 1
+13:33:40 0.07482200  URL: http://192.168.45.100/admin.php - Uncaught SyntaxError: Unexpected token 's', "string(13)"... is not valid JSON; line: 1
+13:35:21 0.47366000  URL: http://192.168.45.100/admin.php - Uncaught SyntaxError: Unexpected token '<', "         <html>
+  "... is not valid JSON; line: 1
+13:35:46 0.88529300  URL: http://192.168.45.100/admin.php - Uncaught SyntaxError: Unexpected token '<', "         <html>
+  "... is not valid JSON; line: 1
+13:36:37 0.52066100  URL: http://192.168.45.100/admin.php - Uncaught SyntaxError: Unexpected token '<', "         <html>
+  "... is not valid JSON; line: 1
+13:36:54 0.26578900  URL: http://192.168.45.100/admin.php - Uncaught TypeError: Cannot read properties of undefined (reading 'EXECUTED'); line: 937
+13:36:54 0.27218200  URL: http://192.168.45.100/admin.php - Uncaught SyntaxError: Unexpected token '<', "         <html>
+  "... is not valid JSON; line: 1
+13:37:21 0.56044300  URL: http://192.168.45.100/admin.php - Uncaught TypeError: Cannot read properties of undefined (reading 'EXECUTED'); line: 937
+13:37:21 0.57698200  URL: http://192.168.45.100/admin.php - Uncaught SyntaxError: Unexpected token '<', "         <html>
+  "... is not valid JSON; line: 1
+13:37:34 0.18612200  URL: http://192.168.45.100/admin.php?pd=cGFuZWw6e2FjdGlvbj14cmF5fQ%3D%3Dpz_&md=xray&inst=adm&view_mode=services - Uncaught SyntaxError: Unexpected token '<', "         <html>
+  "... is not valid JSON; line: 1
+13:37:53 0.59973100  URL: http://192.168.45.100/admin.php - Uncaught TypeError: Cannot read properties of undefined (reading 'EXECUTED'); line: 937
+13:37:53 0.60110000  URL: http://192.168.45.100/admin.php - Uncaught SyntaxError: Unexpected token '<', "         <html>
+  "... is not valid JSON; line: 1
+14:54:59 0.26366400  URL: http://192.168.45.100/admin.php - Uncaught SyntaxError: Unexpected token '<', "         <html>
+  "... is not valid JSON; line: 1
+14:54:59 0.28601900  URL: http://192.168.45.100/admin.php - Uncaught TypeError: Cannot read properties of undefined (reading 'EXECUTED'); line: 937
+14:55:09 0.6681700014:55:09 0.66817000  URL: http://192.168.45.100/admin.php - Uncaught TypeError: Cannot read properties of undefined (reading 'EXECUTED'); line: 937
+  URL: http://192.168.45.100/admin.php - Uncaught SyntaxError: Unexpected token '<', "         <html>
+  "... is not valid JSON; line: 1
+14:55:43 0.55255300  URL: http://192.168.45.100/admin.php - Uncaught TypeError: Cannot read properties of undefined (reading 'EXECUTED'); line: 955
+14:55:43 0.55897100  URL: http://192.168.45.100/admin.php - Uncaught SyntaxError: Unexpected token '<', "         <html>
+  "... is not valid JSON; line: 1
+14:55:53 0.49050700  URL: http://192.168.45.100/admin.php?pd=cGFuZWw6e2FjdGlvbj14cmF5fQ%3D%3Dpz_&md=xray&inst=adm&view_mode=services - Uncaught SyntaxError: Unexpected token '<', "         <html>
+  "... is not valid JSON; line: 1
+14:56:28 0.92904400  URL: http://192.168.45.100/admin.php?pd=cGFuZWw6e2FjdGlvbj14cmF5fQ%3D%3Dpz_&md=xray&inst=adm&view_mode=services - Uncaught SyntaxError: Unexpected token '<', "         <html>
+  "... is not valid JSON; line: 1
+14:57:11 0.86896100  URL: http://192.168.45.100/admin.php?pd=cGFuZWw6e2FjdGlvbj14cmF5fQ%3D%3Dpz_&md=xray&inst=adm&view_mode=services - Uncaught SyntaxError: Unexpected token '<', "         <html>
+  "... is not valid JSON; line: 1
+14:57:14 0.85386800  URL: http://192.168.45.100/admin.php - Uncaught SyntaxError: Unexpected token '<', "         <html>
+  "... is not valid JSON; line: 1
+14:57:14 0.85402600  URL: http://192.168.45.100/admin.php - Uncaught TypeError: Cannot read properties of undefined (reading 'EXECUTED'); line: 955
+14:57:54 0.67818000  URL: http://192.168.45.100/admin.php - Uncaught SyntaxError: Unexpected token '<', "         <html>
+  "... is not valid JSON; line: 1
+14:57:54 0.70183300  URL: http://192.168.45.100/admin.php - Uncaught TypeError: Cannot read properties of undefined (reading 'EXECUTED'); line: 973
+14:58:05 0.56660400  URL: http://192.168.45.100/admin.php?pd=eHJheTp7aW5zdGFuY2U9YWRtfQ%3D%3Dpz_cGFuZWw6e2FjdGlvbj14cmF5fQ%3D%3Dpz_&md=xray&inst=adm&view_mode=services - Uncaught SyntaxError: Unexpected token '<', "         <html>
+  "... is not valid JSON; line: 1
+14:59:55 0.16190200  URL: http://192.168.45.100/admin.php?pd=eHJheTp7aW5zdGFuY2U9YWRtfQ%3D%3Dpz_cGFuZWw6e2FjdGlvbj14cmF5fQ%3D%3Dpz_&md=xray&inst=adm&view_mode=services - Uncaught SyntaxError: Unexpected token '<', "         <html>
+  "... is not valid JSON; line: 1
+15:00:06 0.97056600  URL: http://192.168.45.100/admin.php?pd=cGFuZWw6e2FjdGlvbj14cmF5fQ%3D%3Dpz_&md=xray&inst=adm&view_mode=services - Uncaught SyntaxError: Unexpected token '<', "         <html>
+  "... is not valid JSON; line: 1
+15:00:28 0.66949500  URL: http://192.168.45.100/admin.php?pd=cGFuZWw6e2FjdGlvbj14cmF5fQ%3D%3Dpz_&md=xray&inst=adm&view_mode=services - Uncaught SyntaxError: Unexpected token '<', "         <html>
+  "... is not valid JSON; line: 1
+15:00:42 0.80914500  URL: http://192.168.45.100/admin.php?pd=cGFuZWw6e2FjdGlvbj14cmF5fQ%3D%3Dpz_&md=xray&inst=adm&view_mode=services - Uncaught SyntaxError: Unexpected token '<', "         <html>
+  "... is not valid JSON; line: 1
+15:03:07 0.65699000  URL: http://192.168.45.100/admin.php - Uncaught TypeError: Cannot read properties of undefined (reading 'EXECUTED'); line: 973
+15:03:38 0.95198300  URL: http://192.168.45.100/admin.php - Uncaught TypeError: Cannot read properties of undefined (reading 'EXECUTED'); line: 973
+15:04:32 0.54754800  URL: http://192.168.45.100/admin.php - Uncaught TypeError: Cannot read properties of undefined (reading 'EXECUTED'); line: 757
+15:04:42 0.14296500  URL: http://192.168.45.100/admin.php - Uncaught TypeError: Cannot read properties of undefined (reading 'EXECUTED'); line: 757

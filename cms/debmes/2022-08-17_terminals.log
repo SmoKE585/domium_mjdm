@@ -1,0 +1,33 @@
+00:00:00 0.14803100 Processing HOURLY: {"BREAK":false}
+01:00:00 0.20712300 Processing HOURLY: {"BREAK":false}
+02:00:00 0.36959300 Processing HOURLY: {"BREAK":false}
+03:00:00 0.60483300 Processing HOURLY: {"BREAK":false}
+04:00:00 0.10094200 Processing HOURLY: {"BREAK":false}
+05:00:00 0.15162000 Processing HOURLY: {"BREAK":false}
+06:00:00 0.73523500 Processing HOURLY: {"BREAK":false}
+07:00:00 0.48488400 Processing HOURLY: {"BREAK":false}
+08:00:00 0.82886200 Processing HOURLY: {"BREAK":false}
+08:00:00 0.84502500 Processing SAY: {"level":1,"message":"8 часов","member_id":0,"image":"","BREAK":false}
+08:00:00 0.87745000 Processing SAY: {"level":0,"message":"Режим Ночной выключен.","member_id":0,"image":"","BREAK":false}
+09:00:00 0.49961500 Processing HOURLY: {"BREAK":false}
+09:00:00 0.51511600 Processing SAY: {"level":1,"message":"9 часов","member_id":0,"image":"","BREAK":false}
+09:12:00 0.22621000 Processing SAY: {"level":0,"message":"Всходит солнце","member_id":0,"image":"","BREAK":false}
+10:00:00 0.63449900 Processing HOURLY: {"BREAK":false}
+10:00:00 0.65532900 Processing SAY: {"level":1,"message":"10 часов","member_id":0,"image":"","BREAK":false}
+11:00:00 0.03146600 Processing HOURLY: {"BREAK":false}
+11:00:00 0.04550700 Processing SAY: {"level":1,"message":"11 часов","member_id":0,"image":"","BREAK":false}
+12:00:00 0.76294800 Processing HOURLY: {"BREAK":false}
+12:00:00 0.77961600 Processing SAY: {"level":1,"message":"12 часов","member_id":0,"image":"","BREAK":false}
+13:00:00 0.49187100 Processing HOURLY: {"BREAK":false}
+13:00:00 0.50471300 Processing SAY: {"level":1,"message":"13 часов","member_id":0,"image":"","BREAK":false}
+14:00:00 0.38768900 Processing HOURLY: {"BREAK":false}
+14:00:00 0.40185800 Processing SAY: {"level":1,"message":"14 часов","member_id":0,"image":"","BREAK":false}
+15:00:00 0.63013900 Processing HOURLY: {"BREAK":false}
+15:00:00 0.64511400 Processing SAY: {"level":1,"message":"15 часов","member_id":0,"image":"","BREAK":false}
+16:00:00 0.42646300 Processing HOURLY: {"BREAK":false}
+17:00:00 0.42442500 Processing HOURLY: {"BREAK":false}
+18:00:00 0.21033800 Processing HOURLY: {"BREAK":false}
+19:00:00 0.65063400 Processing HOURLY: {"BREAK":false}
+20:00:00 0.32475800 Processing HOURLY: {"BREAK":false}
+21:00:00 0.51574900 Processing HOURLY: {"BREAK":false}
+22:00:00 0.44173300 Processing HOURLY: {"BREAK":false}

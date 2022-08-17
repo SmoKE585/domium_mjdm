@@ -1,0 +1,34 @@
+00:02:39 0.17803400 Closing thread: exec php -q ./scripts/cycle_websockets.php --params "a:0:{}" > /dev/null 2>&1
+00:02:40 0.17909400 Thread closed: cycle_websockets
+00:02:40 0.18174900 AUTO-RECOVERY: ./scripts/cycle_websockets.php
+00:02:42 0.18315400 Starting service cycle_websockets (./scripts/cycle_websockets.php)
+00:03:13 0.22048700 Adding cycle_websockets to auto-recovery list
+06:02:45 0.73404600 Closing thread: exec php -q ./scripts/cycle_websockets.php --params "a:0:{}" > /dev/null 2>&1
+06:02:46 0.73514100 Thread closed: cycle_websockets
+06:02:46 0.73862700 AUTO-RECOVERY: ./scripts/cycle_websockets.php
+06:02:48 0.73985100 Starting service cycle_websockets (./scripts/cycle_websockets.php)
+06:03:19 0.77117500 Adding cycle_websockets to auto-recovery list
+12:02:52 0.35854000 Closing thread: exec php -q ./scripts/cycle_websockets.php --params "a:0:{}" > /dev/null 2>&1
+12:02:53 0.35914700 Thread closed: cycle_websockets
+12:02:53 0.36095200 AUTO-RECOVERY: ./scripts/cycle_websockets.php
+12:02:55 0.36196700 Starting service cycle_websockets (./scripts/cycle_websockets.php)
+12:03:26 0.38124600 Adding cycle_websockets to auto-recovery list
+17:17:57 0.10532900 Starting ./scripts/cycle_websockets.php ... 
+17:17:57 0.11841600 Starting ./scripts/cycle_main.php ... 
+17:17:57 0.13147400 Starting ./scripts/cycle_wscache.php ... 
+17:17:57 0.13890600 Starting ./scripts/cycle_ping.php ... 
+17:17:57 0.14749800 Starting ./scripts/cycle_phistory.php ... 
+17:17:57 0.15587500 Starting ./scripts/cycle_scheduler.php ... 
+17:17:57 0.16388400 Starting ./scripts/cycle_execs.php ... 
+17:17:57 0.17493700 Starting ./scripts/cycle_mqtt.php ... 
+17:17:57 0.18590500 Starting ./scripts/cycle_states.php ... 
+17:17:58 0.18809400 Closing thread: exec php -q ./scripts/cycle_mqtt.php --params "a:0:{}" > /dev/null 2>&1
+17:17:59 0.18853900 Thread closed: cycle_mqtt
+17:18:29 0.20454800 Adding cycle_websockets to auto-recovery list
+17:18:29 0.20460200 Adding cycle_main to auto-recovery list
+17:18:29 0.20462500 Adding cycle_wscache to auto-recovery list
+17:18:29 0.20464500 Adding cycle_ping to auto-recovery list
+17:18:29 0.20466500 Adding cycle_phistory to auto-recovery list
+17:18:29 0.20468400 Adding cycle_scheduler to auto-recovery list
+17:18:29 0.20470300 Adding cycle_execs to auto-recovery list
+17:18:29 0.20472200 Adding cycle_states to auto-recovery list

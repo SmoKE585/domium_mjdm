@@ -1,0 +1,1214 @@
+16:24:27 0.85431200 Error registered (type: sql):
+1146: Table 'db_terminal.cached_cycles' doesn't exist
+SELECT * FROM cached_cycles WHERE TITLE = 'cycle_connectRun'
+Backtrace:
+#0 /var/www/html/lib/mysqli.class.php(397): registerError()
+#1 /var/www/html/lib/mysqli.class.php(188): mysql->Error()
+#2 /var/www/html/lib/mysqli.class.php(229): mysql->Exec()
+#3 /var/www/html/lib/sqlFunctions.class.php(95): mysql->SelectOne()
+#4 /var/www/html/lib/caching.class.php(30): SQLSelectOne()
+#5 /var/www/html/lib/objects.class.php(609): checkCycleFromCache()
+#6 /var/www/html/modules/xray/xray.class.php(795): getGlobal()
+#7 /var/www/html/modules/xray/xray.class.php(104): xray->admin()
+#8 /var/www/html/lib/jTemplate.class.php(640) : eval()'d code(8): xray->run()
+#9 /var/www/html/lib/jTemplate.class.php(640): eval()
+#10 /var/www/html/lib/jTemplate.class.php(181): jTemplate->parseModules()
+#11 /var/www/html/lib/jTemplate.class.php(98): jTemplate->parse()
+#12 /var/www/html/lib/parser.class.php(93): jTemplate->__construct()
+#13 /var/www/html/lib/parser.class.php(63): parser->jtemplate_parse()
+#14 /var/www/html/modules/panel.class.php(249): parser->__construct()
+#15 /var/www/html/admin.php(43): panel->run()
+#16 {main}
+16:24:27 0.90160800 Error registered (type: sql):
+1146: Table 'db_terminal.cached_cycles' doesn't exist
+SELECT * FROM cached_cycles WHERE TITLE = 'cycle_websocketsDisabled'
+Backtrace:
+#0 /var/www/html/lib/mysqli.class.php(397): registerError()
+#1 /var/www/html/lib/mysqli.class.php(188): mysql->Error()
+#2 /var/www/html/lib/mysqli.class.php(229): mysql->Exec()
+#3 /var/www/html/lib/sqlFunctions.class.php(95): mysql->SelectOne()
+#4 /var/www/html/lib/caching.class.php(30): SQLSelectOne()
+#5 /var/www/html/lib/objects.class.php(609): checkCycleFromCache()
+#6 /var/www/html/diagnostic.php(108): getGlobal()
+#7 /var/www/html/diagnostic.php(274): collectData()
+#8 {main}
+16:24:58 0.13801600 Error registered (type: sql):
+1146: Table 'db_terminal.cached_cycles' doesn't exist
+SELECT * FROM cached_cycles WHERE TITLE = 'cycle_connectRun'
+Backtrace:
+#0 /var/www/html/lib/mysqli.class.php(397): registerError()
+#1 /var/www/html/lib/mysqli.class.php(188): mysql->Error()
+#2 /var/www/html/lib/mysqli.class.php(229): mysql->Exec()
+#3 /var/www/html/lib/sqlFunctions.class.php(95): mysql->SelectOne()
+#4 /var/www/html/lib/caching.class.php(30): SQLSelectOne()
+#5 /var/www/html/lib/objects.class.php(609): checkCycleFromCache()
+#6 /var/www/html/modules/xray/xray.class.php(795): getGlobal()
+#7 /var/www/html/modules/xray/xray.class.php(104): xray->admin()
+#8 /var/www/html/lib/jTemplate.class.php(640) : eval()'d code(8): xray->run()
+#9 /var/www/html/lib/jTemplate.class.php(640): eval()
+#10 /var/www/html/lib/jTemplate.class.php(181): jTemplate->parseModules()
+#11 /var/www/html/lib/jTemplate.class.php(98): jTemplate->parse()
+#12 /var/www/html/lib/parser.class.php(93): jTemplate->__construct()
+#13 /var/www/html/lib/parser.class.php(63): parser->jtemplate_parse()
+#14 /var/www/html/modules/panel.class.php(249): parser->__construct()
+#15 /var/www/html/admin.php(43): panel->run()
+#16 {main}
+16:25:29 0.06756300 Error registered (type: sql):
+1146: Table 'db_terminal.cached_cycles' doesn't exist
+SELECT * FROM cached_cycles WHERE TITLE = 'cycle_connectRun'
+Backtrace:
+#0 /var/www/html/lib/mysqli.class.php(397): registerError()
+#1 /var/www/html/lib/mysqli.class.php(188): mysql->Error()
+#2 /var/www/html/lib/mysqli.class.php(229): mysql->Exec()
+#3 /var/www/html/lib/sqlFunctions.class.php(95): mysql->SelectOne()
+#4 /var/www/html/lib/caching.class.php(30): SQLSelectOne()
+#5 /var/www/html/lib/objects.class.php(609): checkCycleFromCache()
+#6 /var/www/html/modules/xray/xray.class.php(795): getGlobal()
+#7 /var/www/html/modules/xray/xray.class.php(104): xray->admin()
+#8 /var/www/html/lib/jTemplate.class.php(640) : eval()'d code(8): xray->run()
+#9 /var/www/html/lib/jTemplate.class.php(640): eval()
+#10 /var/www/html/lib/jTemplate.class.php(181): jTemplate->parseModules()
+#11 /var/www/html/lib/jTemplate.class.php(98): jTemplate->parse()
+#12 /var/www/html/lib/parser.class.php(93): jTemplate->__construct()
+#13 /var/www/html/lib/parser.class.php(63): parser->jtemplate_parse()
+#14 /var/www/html/modules/panel.class.php(249): parser->__construct()
+#15 /var/www/html/admin.php(43): panel->run()
+#16 {main}
+16:25:44 0.01806600 Error registered (type: sql):
+1146: Table 'db_terminal.cached_cycles' doesn't exist
+SELECT * FROM cached_cycles WHERE TITLE = 'cycle_connectRun'
+Backtrace:
+#0 /var/www/html/lib/mysqli.class.php(397): registerError()
+#1 /var/www/html/lib/mysqli.class.php(188): mysql->Error()
+#2 /var/www/html/lib/mysqli.class.php(229): mysql->Exec()
+#3 /var/www/html/lib/sqlFunctions.class.php(95): mysql->SelectOne()
+#4 /var/www/html/lib/caching.class.php(30): SQLSelectOne()
+#5 /var/www/html/lib/objects.class.php(609): checkCycleFromCache()
+#6 /var/www/html/modules/xray/xray.class.php(795): getGlobal()
+#7 /var/www/html/modules/xray/xray.class.php(104): xray->admin()
+#8 /var/www/html/lib/jTemplate.class.php(640) : eval()'d code(8): xray->run()
+#9 /var/www/html/lib/jTemplate.class.php(640): eval()
+#10 /var/www/html/lib/jTemplate.class.php(181): jTemplate->parseModules()
+#11 /var/www/html/lib/jTemplate.class.php(98): jTemplate->parse()
+#12 /var/www/html/lib/parser.class.php(93): jTemplate->__construct()
+#13 /var/www/html/lib/parser.class.php(63): parser->jtemplate_parse()
+#14 /var/www/html/modules/panel.class.php(249): parser->__construct()
+#15 /var/www/html/admin.php(43): panel->run()
+#16 {main}
+16:25:44 0.06893300 Error registered (type: sql):
+1146: Table 'db_terminal.cached_cycles' doesn't exist
+SELECT * FROM cached_cycles WHERE TITLE = 'cycle_websocketsDisabled'
+Backtrace:
+#0 /var/www/html/lib/mysqli.class.php(397): registerError()
+#1 /var/www/html/lib/mysqli.class.php(188): mysql->Error()
+#2 /var/www/html/lib/mysqli.class.php(229): mysql->Exec()
+#3 /var/www/html/lib/sqlFunctions.class.php(95): mysql->SelectOne()
+#4 /var/www/html/lib/caching.class.php(30): SQLSelectOne()
+#5 /var/www/html/lib/objects.class.php(609): checkCycleFromCache()
+#6 /var/www/html/diagnostic.php(108): getGlobal()
+#7 /var/www/html/diagnostic.php(274): collectData()
+#8 {main}
+16:27:31 0.61167600 Error registered (type: sql):
+1146: Table 'db_terminal.cached_cycles' doesn't exist
+SELECT * FROM cached_cycles WHERE TITLE = 'cycle_connectRun'
+Backtrace:
+#0 /var/www/html/lib/mysqli.class.php(397): registerError()
+#1 /var/www/html/lib/mysqli.class.php(188): mysql->Error()
+#2 /var/www/html/lib/mysqli.class.php(229): mysql->Exec()
+#3 /var/www/html/lib/sqlFunctions.class.php(95): mysql->SelectOne()
+#4 /var/www/html/lib/caching.class.php(30): SQLSelectOne()
+#5 /var/www/html/lib/objects.class.php(609): checkCycleFromCache()
+#6 /var/www/html/modules/xray/xray.class.php(795): getGlobal()
+#7 /var/www/html/modules/xray/xray.class.php(104): xray->admin()
+#8 /var/www/html/lib/jTemplate.class.php(640) : eval()'d code(8): xray->run()
+#9 /var/www/html/lib/jTemplate.class.php(640): eval()
+#10 /var/www/html/lib/jTemplate.class.php(181): jTemplate->parseModules()
+#11 /var/www/html/lib/jTemplate.class.php(98): jTemplate->parse()
+#12 /var/www/html/lib/parser.class.php(93): jTemplate->__construct()
+#13 /var/www/html/lib/parser.class.php(63): parser->jtemplate_parse()
+#14 /var/www/html/modules/panel.class.php(249): parser->__construct()
+#15 /var/www/html/admin.php(43): panel->run()
+#16 {main}
+16:27:35 0.46525300 Error registered (type: sql):
+1146: Table 'db_terminal.cached_cycles' doesn't exist
+SELECT * FROM cached_cycles WHERE TITLE = 'cycle_connectRun'
+Backtrace:
+#0 /var/www/html/lib/mysqli.class.php(397): registerError()
+#1 /var/www/html/lib/mysqli.class.php(188): mysql->Error()
+#2 /var/www/html/lib/mysqli.class.php(229): mysql->Exec()
+#3 /var/www/html/lib/sqlFunctions.class.php(95): mysql->SelectOne()
+#4 /var/www/html/lib/caching.class.php(30): SQLSelectOne()
+#5 /var/www/html/lib/objects.class.php(609): checkCycleFromCache()
+#6 /var/www/html/modules/xray/xray.class.php(795): getGlobal()
+#7 /var/www/html/modules/xray/xray.class.php(104): xray->admin()
+#8 /var/www/html/lib/jTemplate.class.php(640) : eval()'d code(8): xray->run()
+#9 /var/www/html/lib/jTemplate.class.php(640): eval()
+#10 /var/www/html/lib/jTemplate.class.php(181): jTemplate->parseModules()
+#11 /var/www/html/lib/jTemplate.class.php(98): jTemplate->parse()
+#12 /var/www/html/lib/parser.class.php(93): jTemplate->__construct()
+#13 /var/www/html/lib/parser.class.php(63): parser->jtemplate_parse()
+#14 /var/www/html/modules/panel.class.php(249): parser->__construct()
+#15 /var/www/html/admin.php(43): panel->run()
+#16 {main}
+16:30:06 0.82249000 Error registered (type: sql):
+1146: Table 'db_terminal.cached_cycles' doesn't exist
+SELECT * FROM cached_cycles WHERE TITLE = 'cycle_connectRun'
+Backtrace:
+#0 /var/www/html/lib/mysqli.class.php(397): registerError()
+#1 /var/www/html/lib/mysqli.class.php(188): mysql->Error()
+#2 /var/www/html/lib/mysqli.class.php(229): mysql->Exec()
+#3 /var/www/html/lib/sqlFunctions.class.php(95): mysql->SelectOne()
+#4 /var/www/html/lib/caching.class.php(30): SQLSelectOne()
+#5 /var/www/html/lib/objects.class.php(609): checkCycleFromCache()
+#6 /var/www/html/modules/xray/xray.class.php(795): getGlobal()
+#7 /var/www/html/modules/xray/xray.class.php(104): xray->admin()
+#8 /var/www/html/lib/jTemplate.class.php(640) : eval()'d code(8): xray->run()
+#9 /var/www/html/lib/jTemplate.class.php(640): eval()
+#10 /var/www/html/lib/jTemplate.class.php(181): jTemplate->parseModules()
+#11 /var/www/html/lib/jTemplate.class.php(98): jTemplate->parse()
+#12 /var/www/html/lib/parser.class.php(93): jTemplate->__construct()
+#13 /var/www/html/lib/parser.class.php(63): parser->jtemplate_parse()
+#14 /var/www/html/modules/panel.class.php(249): parser->__construct()
+#15 /var/www/html/admin.php(43): panel->run()
+#16 {main}
+16:30:08 0.81993000 Error registered (type: sql):
+1146: Table 'db_terminal.cached_cycles' doesn't exist
+SELECT * FROM cached_cycles WHERE TITLE = 'cycle_connectRun'
+Backtrace:
+#0 /var/www/html/lib/mysqli.class.php(397): registerError()
+#1 /var/www/html/lib/mysqli.class.php(188): mysql->Error()
+#2 /var/www/html/lib/mysqli.class.php(229): mysql->Exec()
+#3 /var/www/html/lib/sqlFunctions.class.php(95): mysql->SelectOne()
+#4 /var/www/html/lib/caching.class.php(30): SQLSelectOne()
+#5 /var/www/html/lib/objects.class.php(609): checkCycleFromCache()
+#6 /var/www/html/modules/xray/xray.class.php(795): getGlobal()
+#7 /var/www/html/modules/xray/xray.class.php(104): xray->admin()
+#8 /var/www/html/lib/jTemplate.class.php(640) : eval()'d code(8): xray->run()
+#9 /var/www/html/lib/jTemplate.class.php(640): eval()
+#10 /var/www/html/lib/jTemplate.class.php(181): jTemplate->parseModules()
+#11 /var/www/html/lib/jTemplate.class.php(98): jTemplate->parse()
+#12 /var/www/html/lib/parser.class.php(93): jTemplate->__construct()
+#13 /var/www/html/lib/parser.class.php(63): parser->jtemplate_parse()
+#14 /var/www/html/modules/panel.class.php(249): parser->__construct()
+#15 /var/www/html/admin.php(43): panel->run()
+#16 {main}
+16:30:08 0.87318600 Error registered (type: sql):
+1146: Table 'db_terminal.cached_cycles' doesn't exist
+SELECT * FROM cached_cycles WHERE TITLE = 'cycle_websocketsDisabled'
+Backtrace:
+#0 /var/www/html/lib/mysqli.class.php(397): registerError()
+#1 /var/www/html/lib/mysqli.class.php(188): mysql->Error()
+#2 /var/www/html/lib/mysqli.class.php(229): mysql->Exec()
+#3 /var/www/html/lib/sqlFunctions.class.php(95): mysql->SelectOne()
+#4 /var/www/html/lib/caching.class.php(30): SQLSelectOne()
+#5 /var/www/html/lib/objects.class.php(609): checkCycleFromCache()
+#6 /var/www/html/diagnostic.php(108): getGlobal()
+#7 /var/www/html/diagnostic.php(274): collectData()
+#8 {main}
+16:30:11 0.87670700 Error registered (type: sql):
+1146: Table 'db_terminal.cached_cycles' doesn't exist
+SELECT * FROM cached_cycles WHERE TITLE = 'cycle_connectRun'
+Backtrace:
+#0 /var/www/html/lib/mysqli.class.php(397): registerError()
+#1 /var/www/html/lib/mysqli.class.php(188): mysql->Error()
+#2 /var/www/html/lib/mysqli.class.php(229): mysql->Exec()
+#3 /var/www/html/lib/sqlFunctions.class.php(95): mysql->SelectOne()
+#4 /var/www/html/lib/caching.class.php(30): SQLSelectOne()
+#5 /var/www/html/lib/objects.class.php(609): checkCycleFromCache()
+#6 /var/www/html/modules/xray/xray.class.php(795): getGlobal()
+#7 /var/www/html/modules/xray/xray.class.php(104): xray->admin()
+#8 /var/www/html/lib/jTemplate.class.php(640) : eval()'d code(8): xray->run()
+#9 /var/www/html/lib/jTemplate.class.php(640): eval()
+#10 /var/www/html/lib/jTemplate.class.php(181): jTemplate->parseModules()
+#11 /var/www/html/lib/jTemplate.class.php(98): jTemplate->parse()
+#12 /var/www/html/lib/parser.class.php(93): jTemplate->__construct()
+#13 /var/www/html/lib/parser.class.php(63): parser->jtemplate_parse()
+#14 /var/www/html/modules/panel.class.php(249): parser->__construct()
+#15 /var/www/html/admin.php(43): panel->run()
+#16 {main}
+16:30:11 0.91562600 Error registered (type: sql):
+1146: Table 'db_terminal.cached_cycles' doesn't exist
+SELECT * FROM cached_cycles WHERE TITLE = 'cycle_websocketsDisabled'
+Backtrace:
+#0 /var/www/html/lib/mysqli.class.php(397): registerError()
+#1 /var/www/html/lib/mysqli.class.php(188): mysql->Error()
+#2 /var/www/html/lib/mysqli.class.php(229): mysql->Exec()
+#3 /var/www/html/lib/sqlFunctions.class.php(95): mysql->SelectOne()
+#4 /var/www/html/lib/caching.class.php(30): SQLSelectOne()
+#5 /var/www/html/lib/objects.class.php(609): checkCycleFromCache()
+#6 /var/www/html/diagnostic.php(108): getGlobal()
+#7 /var/www/html/diagnostic.php(274): collectData()
+#8 {main}
+16:30:42 0.05870500 Error registered (type: sql):
+1146: Table 'db_terminal.cached_cycles' doesn't exist
+SELECT * FROM cached_cycles WHERE TITLE = 'cycle_connectRun'
+Backtrace:
+#0 /var/www/html/lib/mysqli.class.php(397): registerError()
+#1 /var/www/html/lib/mysqli.class.php(188): mysql->Error()
+#2 /var/www/html/lib/mysqli.class.php(229): mysql->Exec()
+#3 /var/www/html/lib/sqlFunctions.class.php(95): mysql->SelectOne()
+#4 /var/www/html/lib/caching.class.php(30): SQLSelectOne()
+#5 /var/www/html/lib/objects.class.php(609): checkCycleFromCache()
+#6 /var/www/html/modules/xray/xray.class.php(795): getGlobal()
+#7 /var/www/html/modules/xray/xray.class.php(104): xray->admin()
+#8 /var/www/html/lib/jTemplate.class.php(640) : eval()'d code(8): xray->run()
+#9 /var/www/html/lib/jTemplate.class.php(640): eval()
+#10 /var/www/html/lib/jTemplate.class.php(181): jTemplate->parseModules()
+#11 /var/www/html/lib/jTemplate.class.php(98): jTemplate->parse()
+#12 /var/www/html/lib/parser.class.php(93): jTemplate->__construct()
+#13 /var/www/html/lib/parser.class.php(63): parser->jtemplate_parse()
+#14 /var/www/html/modules/panel.class.php(249): parser->__construct()
+#15 /var/www/html/admin.php(43): panel->run()
+#16 {main}
+16:31:13 0.06267400 Error registered (type: sql):
+1146: Table 'db_terminal.cached_cycles' doesn't exist
+SELECT * FROM cached_cycles WHERE TITLE = 'cycle_connectRun'
+Backtrace:
+#0 /var/www/html/lib/mysqli.class.php(397): registerError()
+#1 /var/www/html/lib/mysqli.class.php(188): mysql->Error()
+#2 /var/www/html/lib/mysqli.class.php(229): mysql->Exec()
+#3 /var/www/html/lib/sqlFunctions.class.php(95): mysql->SelectOne()
+#4 /var/www/html/lib/caching.class.php(30): SQLSelectOne()
+#5 /var/www/html/lib/objects.class.php(609): checkCycleFromCache()
+#6 /var/www/html/modules/xray/xray.class.php(795): getGlobal()
+#7 /var/www/html/modules/xray/xray.class.php(104): xray->admin()
+#8 /var/www/html/lib/jTemplate.class.php(640) : eval()'d code(8): xray->run()
+#9 /var/www/html/lib/jTemplate.class.php(640): eval()
+#10 /var/www/html/lib/jTemplate.class.php(181): jTemplate->parseModules()
+#11 /var/www/html/lib/jTemplate.class.php(98): jTemplate->parse()
+#12 /var/www/html/lib/parser.class.php(93): jTemplate->__construct()
+#13 /var/www/html/lib/parser.class.php(63): parser->jtemplate_parse()
+#14 /var/www/html/modules/panel.class.php(249): parser->__construct()
+#15 /var/www/html/admin.php(43): panel->run()
+#16 {main}
+16:31:44 0.05478200 Error registered (type: sql):
+1146: Table 'db_terminal.cached_cycles' doesn't exist
+SELECT * FROM cached_cycles WHERE TITLE = 'cycle_connectRun'
+Backtrace:
+#0 /var/www/html/lib/mysqli.class.php(397): registerError()
+#1 /var/www/html/lib/mysqli.class.php(188): mysql->Error()
+#2 /var/www/html/lib/mysqli.class.php(229): mysql->Exec()
+#3 /var/www/html/lib/sqlFunctions.class.php(95): mysql->SelectOne()
+#4 /var/www/html/lib/caching.class.php(30): SQLSelectOne()
+#5 /var/www/html/lib/objects.class.php(609): checkCycleFromCache()
+#6 /var/www/html/modules/xray/xray.class.php(795): getGlobal()
+#7 /var/www/html/modules/xray/xray.class.php(104): xray->admin()
+#8 /var/www/html/lib/jTemplate.class.php(640) : eval()'d code(8): xray->run()
+#9 /var/www/html/lib/jTemplate.class.php(640): eval()
+#10 /var/www/html/lib/jTemplate.class.php(181): jTemplate->parseModules()
+#11 /var/www/html/lib/jTemplate.class.php(98): jTemplate->parse()
+#12 /var/www/html/lib/parser.class.php(93): jTemplate->__construct()
+#13 /var/www/html/lib/parser.class.php(63): parser->jtemplate_parse()
+#14 /var/www/html/modules/panel.class.php(249): parser->__construct()
+#15 /var/www/html/admin.php(43): panel->run()
+#16 {main}
+16:32:13 0.68840500 Error registered (type: sql):
+1146: Table 'db_terminal.cached_cycles' doesn't exist
+SELECT * FROM cached_cycles WHERE TITLE = 'cycle_connectRun'
+Backtrace:
+#0 /var/www/html/lib/mysqli.class.php(397): registerError()
+#1 /var/www/html/lib/mysqli.class.php(188): mysql->Error()
+#2 /var/www/html/lib/mysqli.class.php(229): mysql->Exec()
+#3 /var/www/html/lib/sqlFunctions.class.php(95): mysql->SelectOne()
+#4 /var/www/html/lib/caching.class.php(30): SQLSelectOne()
+#5 /var/www/html/lib/objects.class.php(609): checkCycleFromCache()
+#6 /var/www/html/modules/xray/xray.class.php(795): getGlobal()
+#7 /var/www/html/modules/xray/xray.class.php(104): xray->admin()
+#8 /var/www/html/lib/jTemplate.class.php(640) : eval()'d code(8): xray->run()
+#9 /var/www/html/lib/jTemplate.class.php(640): eval()
+#10 /var/www/html/lib/jTemplate.class.php(181): jTemplate->parseModules()
+#11 /var/www/html/lib/jTemplate.class.php(98): jTemplate->parse()
+#12 /var/www/html/lib/parser.class.php(93): jTemplate->__construct()
+#13 /var/www/html/lib/parser.class.php(63): parser->jtemplate_parse()
+#14 /var/www/html/modules/panel.class.php(249): parser->__construct()
+#15 /var/www/html/admin.php(43): panel->run()
+#16 {main}
+16:32:13 0.72637500 Error registered (type: sql):
+1146: Table 'db_terminal.cached_cycles' doesn't exist
+SELECT * FROM cached_cycles WHERE TITLE = 'cycle_websocketsDisabled'
+Backtrace:
+#0 /var/www/html/lib/mysqli.class.php(397): registerError()
+#1 /var/www/html/lib/mysqli.class.php(188): mysql->Error()
+#2 /var/www/html/lib/mysqli.class.php(229): mysql->Exec()
+#3 /var/www/html/lib/sqlFunctions.class.php(95): mysql->SelectOne()
+#4 /var/www/html/lib/caching.class.php(30): SQLSelectOne()
+#5 /var/www/html/lib/objects.class.php(609): checkCycleFromCache()
+#6 /var/www/html/diagnostic.php(108): getGlobal()
+#7 /var/www/html/diagnostic.php(274): collectData()
+#8 {main}
+16:32:17 0.10150600 Error registered (type: sql):
+1146: Table 'db_terminal.cached_cycles' doesn't exist
+SELECT * FROM cached_cycles WHERE TITLE = 'cycle_connectRun'
+Backtrace:
+#0 /var/www/html/lib/mysqli.class.php(397): registerError()
+#1 /var/www/html/lib/mysqli.class.php(188): mysql->Error()
+#2 /var/www/html/lib/mysqli.class.php(229): mysql->Exec()
+#3 /var/www/html/lib/sqlFunctions.class.php(95): mysql->SelectOne()
+#4 /var/www/html/lib/caching.class.php(30): SQLSelectOne()
+#5 /var/www/html/lib/objects.class.php(609): checkCycleFromCache()
+#6 /var/www/html/modules/xray/xray.class.php(795): getGlobal()
+#7 /var/www/html/modules/xray/xray.class.php(104): xray->admin()
+#8 /var/www/html/lib/jTemplate.class.php(640) : eval()'d code(8): xray->run()
+#9 /var/www/html/lib/jTemplate.class.php(640): eval()
+#10 /var/www/html/lib/jTemplate.class.php(181): jTemplate->parseModules()
+#11 /var/www/html/lib/jTemplate.class.php(98): jTemplate->parse()
+#12 /var/www/html/lib/parser.class.php(93): jTemplate->__construct()
+#13 /var/www/html/lib/parser.class.php(63): parser->jtemplate_parse()
+#14 /var/www/html/modules/panel.class.php(249): parser->__construct()
+#15 /var/www/html/admin.php(43): panel->run()
+#16 {main}
+16:32:17 0.16243100 Error registered (type: sql):
+1146: Table 'db_terminal.cached_cycles' doesn't exist
+SELECT * FROM cached_cycles WHERE TITLE = 'cycle_websocketsDisabled'
+Backtrace:
+#0 /var/www/html/lib/mysqli.class.php(397): registerError()
+#1 /var/www/html/lib/mysqli.class.php(188): mysql->Error()
+#2 /var/www/html/lib/mysqli.class.php(229): mysql->Exec()
+#3 /var/www/html/lib/sqlFunctions.class.php(95): mysql->SelectOne()
+#4 /var/www/html/lib/caching.class.php(30): SQLSelectOne()
+#5 /var/www/html/lib/objects.class.php(609): checkCycleFromCache()
+#6 /var/www/html/diagnostic.php(108): getGlobal()
+#7 /var/www/html/diagnostic.php(274): collectData()
+#8 {main}
+16:32:23 0.75767500 Error registered (type: sql):
+1146: Table 'db_terminal.cached_cycles' doesn't exist
+SELECT * FROM cached_cycles WHERE TITLE = 'cycle_connectRun'
+Backtrace:
+#0 /var/www/html/lib/mysqli.class.php(397): registerError()
+#1 /var/www/html/lib/mysqli.class.php(188): mysql->Error()
+#2 /var/www/html/lib/mysqli.class.php(229): mysql->Exec()
+#3 /var/www/html/lib/sqlFunctions.class.php(95): mysql->SelectOne()
+#4 /var/www/html/lib/caching.class.php(30): SQLSelectOne()
+#5 /var/www/html/lib/objects.class.php(609): checkCycleFromCache()
+#6 /var/www/html/modules/xray/xray.class.php(795): getGlobal()
+#7 /var/www/html/modules/xray/xray.class.php(104): xray->admin()
+#8 /var/www/html/lib/jTemplate.class.php(640) : eval()'d code(8): xray->run()
+#9 /var/www/html/lib/jTemplate.class.php(640): eval()
+#10 /var/www/html/lib/jTemplate.class.php(181): jTemplate->parseModules()
+#11 /var/www/html/lib/jTemplate.class.php(98): jTemplate->parse()
+#12 /var/www/html/lib/parser.class.php(93): jTemplate->__construct()
+#13 /var/www/html/lib/parser.class.php(63): parser->jtemplate_parse()
+#14 /var/www/html/modules/panel.class.php(249): parser->__construct()
+#15 /var/www/html/admin.php(43): panel->run()
+#16 {main}
+16:32:23 0.79365700 Error registered (type: sql):
+1146: Table 'db_terminal.cached_cycles' doesn't exist
+SELECT * FROM cached_cycles WHERE TITLE = 'cycle_websocketsDisabled'
+Backtrace:
+#0 /var/www/html/lib/mysqli.class.php(397): registerError()
+#1 /var/www/html/lib/mysqli.class.php(188): mysql->Error()
+#2 /var/www/html/lib/mysqli.class.php(229): mysql->Exec()
+#3 /var/www/html/lib/sqlFunctions.class.php(95): mysql->SelectOne()
+#4 /var/www/html/lib/caching.class.php(30): SQLSelectOne()
+#5 /var/www/html/lib/objects.class.php(609): checkCycleFromCache()
+#6 /var/www/html/diagnostic.php(108): getGlobal()
+#7 /var/www/html/diagnostic.php(274): collectData()
+#8 {main}
+16:32:36 0.21938600 Error registered (type: sql):
+1146: Table 'db_terminal.cached_cycles' doesn't exist
+SELECT * FROM cached_cycles WHERE TITLE = 'cycle_connectRun'
+Backtrace:
+#0 /var/www/html/lib/mysqli.class.php(397): registerError()
+#1 /var/www/html/lib/mysqli.class.php(188): mysql->Error()
+#2 /var/www/html/lib/mysqli.class.php(229): mysql->Exec()
+#3 /var/www/html/lib/sqlFunctions.class.php(95): mysql->SelectOne()
+#4 /var/www/html/lib/caching.class.php(30): SQLSelectOne()
+#5 /var/www/html/lib/objects.class.php(609): checkCycleFromCache()
+#6 /var/www/html/modules/xray/xray.class.php(795): getGlobal()
+#7 /var/www/html/modules/xray/xray.class.php(104): xray->admin()
+#8 /var/www/html/lib/jTemplate.class.php(640) : eval()'d code(8): xray->run()
+#9 /var/www/html/lib/jTemplate.class.php(640): eval()
+#10 /var/www/html/lib/jTemplate.class.php(181): jTemplate->parseModules()
+#11 /var/www/html/lib/jTemplate.class.php(98): jTemplate->parse()
+#12 /var/www/html/lib/parser.class.php(93): jTemplate->__construct()
+#13 /var/www/html/lib/parser.class.php(63): parser->jtemplate_parse()
+#14 /var/www/html/modules/panel.class.php(249): parser->__construct()
+#15 /var/www/html/admin.php(43): panel->run()
+#16 {main}
+16:33:07 0.06073000 Error registered (type: sql):
+1146: Table 'db_terminal.cached_cycles' doesn't exist
+SELECT * FROM cached_cycles WHERE TITLE = 'cycle_connectRun'
+Backtrace:
+#0 /var/www/html/lib/mysqli.class.php(397): registerError()
+#1 /var/www/html/lib/mysqli.class.php(188): mysql->Error()
+#2 /var/www/html/lib/mysqli.class.php(229): mysql->Exec()
+#3 /var/www/html/lib/sqlFunctions.class.php(95): mysql->SelectOne()
+#4 /var/www/html/lib/caching.class.php(30): SQLSelectOne()
+#5 /var/www/html/lib/objects.class.php(609): checkCycleFromCache()
+#6 /var/www/html/modules/xray/xray.class.php(795): getGlobal()
+#7 /var/www/html/modules/xray/xray.class.php(104): xray->admin()
+#8 /var/www/html/lib/jTemplate.class.php(640) : eval()'d code(8): xray->run()
+#9 /var/www/html/lib/jTemplate.class.php(640): eval()
+#10 /var/www/html/lib/jTemplate.class.php(181): jTemplate->parseModules()
+#11 /var/www/html/lib/jTemplate.class.php(98): jTemplate->parse()
+#12 /var/www/html/lib/parser.class.php(93): jTemplate->__construct()
+#13 /var/www/html/lib/parser.class.php(63): parser->jtemplate_parse()
+#14 /var/www/html/modules/panel.class.php(249): parser->__construct()
+#15 /var/www/html/admin.php(43): panel->run()
+#16 {main}
+16:33:40 0.00017100 Error registered (type: sql):
+1146: Table 'db_terminal.cached_cycles' doesn't exist
+SELECT * FROM cached_cycles WHERE TITLE = 'cycle_connectRun'
+Backtrace:
+#0 /var/www/html/lib/mysqli.class.php(397): registerError()
+#1 /var/www/html/lib/mysqli.class.php(188): mysql->Error()
+#2 /var/www/html/lib/mysqli.class.php(229): mysql->Exec()
+#3 /var/www/html/lib/sqlFunctions.class.php(95): mysql->SelectOne()
+#4 /var/www/html/lib/caching.class.php(30): SQLSelectOne()
+#5 /var/www/html/lib/objects.class.php(609): checkCycleFromCache()
+#6 /var/www/html/modules/xray/xray.class.php(795): getGlobal()
+#7 /var/www/html/modules/xray/xray.class.php(104): xray->admin()
+#8 /var/www/html/lib/jTemplate.class.php(640) : eval()'d code(8): xray->run()
+#9 /var/www/html/lib/jTemplate.class.php(640): eval()
+#10 /var/www/html/lib/jTemplate.class.php(181): jTemplate->parseModules()
+#11 /var/www/html/lib/jTemplate.class.php(98): jTemplate->parse()
+#12 /var/www/html/lib/parser.class.php(93): jTemplate->__construct()
+#13 /var/www/html/lib/parser.class.php(63): parser->jtemplate_parse()
+#14 /var/www/html/modules/panel.class.php(249): parser->__construct()
+#15 /var/www/html/admin.php(43): panel->run()
+#16 {main}
+16:33:40 0.04139500 Error registered (type: sql):
+1146: Table 'db_terminal.cached_cycles' doesn't exist
+SELECT * FROM cached_cycles WHERE TITLE = 'cycle_websocketsDisabled'
+Backtrace:
+#0 /var/www/html/lib/mysqli.class.php(397): registerError()
+#1 /var/www/html/lib/mysqli.class.php(188): mysql->Error()
+#2 /var/www/html/lib/mysqli.class.php(229): mysql->Exec()
+#3 /var/www/html/lib/sqlFunctions.class.php(95): mysql->SelectOne()
+#4 /var/www/html/lib/caching.class.php(30): SQLSelectOne()
+#5 /var/www/html/lib/objects.class.php(609): checkCycleFromCache()
+#6 /var/www/html/diagnostic.php(108): getGlobal()
+#7 /var/www/html/diagnostic.php(274): collectData()
+#8 {main}
+16:35:21 0.29877900 Error registered (type: sql):
+1146: Table 'db_terminal.cached_cycles' doesn't exist
+SELECT * FROM cached_cycles WHERE TITLE = 'cycle_connectRun'
+Backtrace:
+#0 /var/www/html/lib/mysqli.class.php(397): registerError()
+#1 /var/www/html/lib/mysqli.class.php(188): mysql->Error()
+#2 /var/www/html/lib/mysqli.class.php(229): mysql->Exec()
+#3 /var/www/html/lib/sqlFunctions.class.php(95): mysql->SelectOne()
+#4 /var/www/html/lib/caching.class.php(30): SQLSelectOne()
+#5 /var/www/html/lib/objects.class.php(609): checkCycleFromCache()
+#6 /var/www/html/modules/xray/xray.class.php(795): getGlobal()
+#7 /var/www/html/modules/xray/xray.class.php(104): xray->admin()
+#8 /var/www/html/lib/jTemplate.class.php(640) : eval()'d code(8): xray->run()
+#9 /var/www/html/lib/jTemplate.class.php(640): eval()
+#10 /var/www/html/lib/jTemplate.class.php(181): jTemplate->parseModules()
+#11 /var/www/html/lib/jTemplate.class.php(98): jTemplate->parse()
+#12 /var/www/html/lib/parser.class.php(93): jTemplate->__construct()
+#13 /var/www/html/lib/parser.class.php(63): parser->jtemplate_parse()
+#14 /var/www/html/modules/panel.class.php(249): parser->__construct()
+#15 /var/www/html/admin.php(43): panel->run()
+#16 {main}
+16:35:21 0.32473500 Error registered (type: sql):
+1146: Table 'db_terminal.cached_cycles' doesn't exist
+SELECT * FROM cached_cycles WHERE TITLE = 'cycle_websocketsDisabled'
+Backtrace:
+#0 /var/www/html/lib/mysqli.class.php(397): registerError()
+#1 /var/www/html/lib/mysqli.class.php(188): mysql->Error()
+#2 /var/www/html/lib/mysqli.class.php(229): mysql->Exec()
+#3 /var/www/html/lib/sqlFunctions.class.php(95): mysql->SelectOne()
+#4 /var/www/html/lib/caching.class.php(30): SQLSelectOne()
+#5 /var/www/html/lib/objects.class.php(609): checkCycleFromCache()
+#6 /var/www/html/diagnostic.php(108): getGlobal()
+#7 /var/www/html/diagnostic.php(274): collectData()
+#8 {main}
+16:35:46 0.79343400 Error registered (type: sql):
+1146: Table 'db_terminal.cached_cycles' doesn't exist
+SELECT * FROM cached_cycles WHERE TITLE = 'cycle_connectRun'
+Backtrace:
+#0 /var/www/html/lib/mysqli.class.php(397): registerError()
+#1 /var/www/html/lib/mysqli.class.php(188): mysql->Error()
+#2 /var/www/html/lib/mysqli.class.php(229): mysql->Exec()
+#3 /var/www/html/lib/sqlFunctions.class.php(95): mysql->SelectOne()
+#4 /var/www/html/lib/caching.class.php(30): SQLSelectOne()
+#5 /var/www/html/lib/objects.class.php(609): checkCycleFromCache()
+#6 /var/www/html/modules/xray/xray.class.php(795): getGlobal()
+#7 /var/www/html/modules/xray/xray.class.php(104): xray->admin()
+#8 /var/www/html/lib/jTemplate.class.php(640) : eval()'d code(8): xray->run()
+#9 /var/www/html/lib/jTemplate.class.php(640): eval()
+#10 /var/www/html/lib/jTemplate.class.php(181): jTemplate->parseModules()
+#11 /var/www/html/lib/jTemplate.class.php(98): jTemplate->parse()
+#12 /var/www/html/lib/parser.class.php(93): jTemplate->__construct()
+#13 /var/www/html/lib/parser.class.php(63): parser->jtemplate_parse()
+#14 /var/www/html/modules/panel.class.php(249): parser->__construct()
+#15 /var/www/html/admin.php(43): panel->run()
+#16 {main}
+16:35:46 0.85443900 Error registered (type: sql):
+1146: Table 'db_terminal.cached_cycles' doesn't exist
+SELECT * FROM cached_cycles WHERE TITLE = 'cycle_websocketsDisabled'
+Backtrace:
+#0 /var/www/html/lib/mysqli.class.php(397): registerError()
+#1 /var/www/html/lib/mysqli.class.php(188): mysql->Error()
+#2 /var/www/html/lib/mysqli.class.php(229): mysql->Exec()
+#3 /var/www/html/lib/sqlFunctions.class.php(95): mysql->SelectOne()
+#4 /var/www/html/lib/caching.class.php(30): SQLSelectOne()
+#5 /var/www/html/lib/objects.class.php(609): checkCycleFromCache()
+#6 /var/www/html/diagnostic.php(108): getGlobal()
+#7 /var/www/html/diagnostic.php(274): collectData()
+#8 {main}
+16:36:37 0.35336900 Error registered (type: sql):
+1146: Table 'db_terminal.cached_cycles' doesn't exist
+SELECT * FROM cached_cycles WHERE TITLE = 'cycle_connectRun'
+Backtrace:
+#0 /var/www/html/lib/mysqli.class.php(397): registerError()
+#1 /var/www/html/lib/mysqli.class.php(188): mysql->Error()
+#2 /var/www/html/lib/mysqli.class.php(229): mysql->Exec()
+#3 /var/www/html/lib/sqlFunctions.class.php(95): mysql->SelectOne()
+#4 /var/www/html/lib/caching.class.php(30): SQLSelectOne()
+#5 /var/www/html/lib/objects.class.php(609): checkCycleFromCache()
+#6 /var/www/html/modules/xray/xray.class.php(795): getGlobal()
+#7 /var/www/html/modules/xray/xray.class.php(104): xray->admin()
+#8 /var/www/html/lib/jTemplate.class.php(640) : eval()'d code(8): xray->run()
+#9 /var/www/html/lib/jTemplate.class.php(640): eval()
+#10 /var/www/html/lib/jTemplate.class.php(181): jTemplate->parseModules()
+#11 /var/www/html/lib/jTemplate.class.php(98): jTemplate->parse()
+#12 /var/www/html/lib/parser.class.php(93): jTemplate->__construct()
+#13 /var/www/html/lib/parser.class.php(63): parser->jtemplate_parse()
+#14 /var/www/html/modules/panel.class.php(249): parser->__construct()
+#15 /var/www/html/admin.php(43): panel->run()
+#16 {main}
+16:36:37 0.40145800 Error registered (type: sql):
+1146: Table 'db_terminal.cached_cycles' doesn't exist
+SELECT * FROM cached_cycles WHERE TITLE = 'cycle_websocketsDisabled'
+Backtrace:
+#0 /var/www/html/lib/mysqli.class.php(397): registerError()
+#1 /var/www/html/lib/mysqli.class.php(188): mysql->Error()
+#2 /var/www/html/lib/mysqli.class.php(229): mysql->Exec()
+#3 /var/www/html/lib/sqlFunctions.class.php(95): mysql->SelectOne()
+#4 /var/www/html/lib/caching.class.php(30): SQLSelectOne()
+#5 /var/www/html/lib/objects.class.php(609): checkCycleFromCache()
+#6 /var/www/html/diagnostic.php(108): getGlobal()
+#7 /var/www/html/diagnostic.php(274): collectData()
+#8 {main}
+16:36:54 0.10453700 Error registered (type: sql):
+1146: Table 'db_terminal.cached_cycles' doesn't exist
+SELECT * FROM cached_cycles WHERE TITLE = 'cycle_connectRun'
+Backtrace:
+#0 /var/www/html/lib/mysqli.class.php(397): registerError()
+#1 /var/www/html/lib/mysqli.class.php(188): mysql->Error()
+#2 /var/www/html/lib/mysqli.class.php(229): mysql->Exec()
+#3 /var/www/html/lib/sqlFunctions.class.php(95): mysql->SelectOne()
+#4 /var/www/html/lib/caching.class.php(30): SQLSelectOne()
+#5 /var/www/html/lib/objects.class.php(609): checkCycleFromCache()
+#6 /var/www/html/modules/xray/xray.class.php(795): getGlobal()
+#7 /var/www/html/modules/xray/xray.class.php(104): xray->admin()
+#8 /var/www/html/lib/jTemplate.class.php(640) : eval()'d code(8): xray->run()
+#9 /var/www/html/lib/jTemplate.class.php(640): eval()
+#10 /var/www/html/lib/jTemplate.class.php(181): jTemplate->parseModules()
+#11 /var/www/html/lib/jTemplate.class.php(98): jTemplate->parse()
+#12 /var/www/html/lib/parser.class.php(93): jTemplate->__construct()
+#13 /var/www/html/lib/parser.class.php(63): parser->jtemplate_parse()
+#14 /var/www/html/modules/panel.class.php(249): parser->__construct()
+#15 /var/www/html/admin.php(43): panel->run()
+#16 {main}
+16:36:54 0.14441700 Error registered (type: sql):
+1146: Table 'db_terminal.cached_cycles' doesn't exist
+SELECT * FROM cached_cycles WHERE TITLE = 'cycle_websocketsDisabled'
+Backtrace:
+#0 /var/www/html/lib/mysqli.class.php(397): registerError()
+#1 /var/www/html/lib/mysqli.class.php(188): mysql->Error()
+#2 /var/www/html/lib/mysqli.class.php(229): mysql->Exec()
+#3 /var/www/html/lib/sqlFunctions.class.php(95): mysql->SelectOne()
+#4 /var/www/html/lib/caching.class.php(30): SQLSelectOne()
+#5 /var/www/html/lib/objects.class.php(609): checkCycleFromCache()
+#6 /var/www/html/diagnostic.php(108): getGlobal()
+#7 /var/www/html/diagnostic.php(274): collectData()
+#8 {main}
+16:37:20 0.64858600 Error registered (type: sql):
+1146: Table 'db_terminal.cached_cycles' doesn't exist
+SELECT * FROM cached_cycles WHERE TITLE = 'cycle_connectRun'
+Backtrace:
+#0 /var/www/html/lib/mysqli.class.php(397): registerError()
+#1 /var/www/html/lib/mysqli.class.php(188): mysql->Error()
+#2 /var/www/html/lib/mysqli.class.php(229): mysql->Exec()
+#3 /var/www/html/lib/sqlFunctions.class.php(95): mysql->SelectOne()
+#4 /var/www/html/lib/caching.class.php(30): SQLSelectOne()
+#5 /var/www/html/lib/objects.class.php(609): checkCycleFromCache()
+#6 /var/www/html/modules/xray/xray.class.php(795): getGlobal()
+#7 /var/www/html/modules/xray/xray.class.php(104): xray->admin()
+#8 /var/www/html/lib/jTemplate.class.php(640) : eval()'d code(8): xray->run()
+#9 /var/www/html/lib/jTemplate.class.php(640): eval()
+#10 /var/www/html/lib/jTemplate.class.php(181): jTemplate->parseModules()
+#11 /var/www/html/lib/jTemplate.class.php(98): jTemplate->parse()
+#12 /var/www/html/lib/parser.class.php(93): jTemplate->__construct()
+#13 /var/www/html/lib/parser.class.php(63): parser->jtemplate_parse()
+#14 /var/www/html/modules/panel.class.php(249): parser->__construct()
+#15 /var/www/html/admin.php(43): panel->run()
+#16 {main}
+16:37:21 0.53943100 Error registered (type: sql):
+1146: Table 'db_terminal.cached_cycles' doesn't exist
+SELECT * FROM cached_cycles WHERE TITLE = 'cycle_websocketsDisabled'
+Backtrace:
+#0 /var/www/html/lib/mysqli.class.php(397): registerError()
+#1 /var/www/html/lib/mysqli.class.php(188): mysql->Error()
+#2 /var/www/html/lib/mysqli.class.php(229): mysql->Exec()
+#3 /var/www/html/lib/sqlFunctions.class.php(95): mysql->SelectOne()
+#4 /var/www/html/lib/caching.class.php(30): SQLSelectOne()
+#5 /var/www/html/lib/objects.class.php(609): checkCycleFromCache()
+#6 /var/www/html/diagnostic.php(108): getGlobal()
+#7 /var/www/html/diagnostic.php(274): collectData()
+#8 {main}
+16:37:21 0.54330000 Error registered (type: sql):
+1146: Table 'db_terminal.cached_cycles' doesn't exist
+SELECT * FROM cached_cycles WHERE TITLE = 'cycle_connectRun'
+Backtrace:
+#0 /var/www/html/lib/mysqli.class.php(397): registerError()
+#1 /var/www/html/lib/mysqli.class.php(188): mysql->Error()
+#2 /var/www/html/lib/mysqli.class.php(229): mysql->Exec()
+#3 /var/www/html/lib/sqlFunctions.class.php(95): mysql->SelectOne()
+#4 /var/www/html/lib/caching.class.php(30): SQLSelectOne()
+#5 /var/www/html/lib/objects.class.php(609): checkCycleFromCache()
+#6 /var/www/html/lib/objects.class.php(1296): getGlobal()
+#7 /var/www/html/modules/connect/connect.class.php(1036): gg()
+#8 /var/www/html/modules/connect/connect.class.php(101): connect->usual()
+#9 /var/www/html/modules/application.class.php(399) : eval()'d code(5): connect->run()
+#10 /var/www/html/modules/application.class.php(399): eval()
+#11 /var/www/html/index.php(42): application->run()
+#12 /var/www/html/nf.php(151): include_once('/var/www/html/i...')
+#13 {main}
+16:37:34 0.16542000 Error registered (type: sql):
+1146: Table 'db_terminal.cached_cycles' doesn't exist
+SELECT * FROM cached_cycles WHERE TITLE = 'cycle_connectRun'
+Backtrace:
+#0 /var/www/html/lib/mysqli.class.php(397): registerError()
+#1 /var/www/html/lib/mysqli.class.php(188): mysql->Error()
+#2 /var/www/html/lib/mysqli.class.php(229): mysql->Exec()
+#3 /var/www/html/lib/sqlFunctions.class.php(95): mysql->SelectOne()
+#4 /var/www/html/lib/caching.class.php(30): SQLSelectOne()
+#5 /var/www/html/lib/objects.class.php(609): checkCycleFromCache()
+#6 /var/www/html/modules/xray/xray.class.php(795): getGlobal()
+#7 /var/www/html/modules/xray/xray.class.php(104): xray->admin()
+#8 /var/www/html/lib/jTemplate.class.php(640) : eval()'d code(8): xray->run()
+#9 /var/www/html/lib/jTemplate.class.php(640): eval()
+#10 /var/www/html/lib/jTemplate.class.php(181): jTemplate->parseModules()
+#11 /var/www/html/lib/jTemplate.class.php(98): jTemplate->parse()
+#12 /var/www/html/lib/parser.class.php(93): jTemplate->__construct()
+#13 /var/www/html/lib/parser.class.php(63): parser->jtemplate_parse()
+#14 /var/www/html/modules/panel.class.php(249): parser->__construct()
+#15 /var/www/html/admin.php(43): panel->run()
+#16 {main}
+16:37:51 0.33121300 Error registered (type: sql):
+1146: Table 'db_terminal.cached_cycles' doesn't exist
+SELECT * FROM cached_cycles WHERE TITLE = 'cycle_connectRun'
+Backtrace:
+#0 /var/www/html/lib/mysqli.class.php(397): registerError()
+#1 /var/www/html/lib/mysqli.class.php(188): mysql->Error()
+#2 /var/www/html/lib/mysqli.class.php(229): mysql->Exec()
+#3 /var/www/html/lib/sqlFunctions.class.php(95): mysql->SelectOne()
+#4 /var/www/html/lib/caching.class.php(30): SQLSelectOne()
+#5 /var/www/html/lib/objects.class.php(609): checkCycleFromCache()
+#6 /var/www/html/modules/xray/xray.class.php(795): getGlobal()
+#7 /var/www/html/modules/xray/xray.class.php(104): xray->admin()
+#8 /var/www/html/lib/jTemplate.class.php(640) : eval()'d code(8): xray->run()
+#9 /var/www/html/lib/jTemplate.class.php(640): eval()
+#10 /var/www/html/lib/jTemplate.class.php(181): jTemplate->parseModules()
+#11 /var/www/html/lib/jTemplate.class.php(98): jTemplate->parse()
+#12 /var/www/html/lib/parser.class.php(93): jTemplate->__construct()
+#13 /var/www/html/lib/parser.class.php(63): parser->jtemplate_parse()
+#14 /var/www/html/modules/panel.class.php(249): parser->__construct()
+#15 /var/www/html/admin.php(43): panel->run()
+#16 {main}
+16:37:53 0.57160900 Error registered (type: sql):
+1146: Table 'db_terminal.cached_cycles' doesn't exist
+SELECT * FROM cached_cycles WHERE TITLE = 'cycle_websocketsDisabled'
+Backtrace:
+#0 /var/www/html/lib/mysqli.class.php(397): registerError()
+#1 /var/www/html/lib/mysqli.class.php(188): mysql->Error()
+#2 /var/www/html/lib/mysqli.class.php(229): mysql->Exec()
+#3 /var/www/html/lib/sqlFunctions.class.php(95): mysql->SelectOne()
+#4 /var/www/html/lib/caching.class.php(30): SQLSelectOne()
+#5 /var/www/html/lib/objects.class.php(609): checkCycleFromCache()
+#6 /var/www/html/diagnostic.php(108): getGlobal()
+#7 /var/www/html/diagnostic.php(274): collectData()
+#8 {main}
+16:37:53 0.58082500 Error registered (type: sql):
+1146: Table 'db_terminal.cached_cycles' doesn't exist
+SELECT * FROM cached_cycles WHERE TITLE = 'cycle_connectRun'
+Backtrace:
+#0 /var/www/html/lib/mysqli.class.php(397): registerError()
+#1 /var/www/html/lib/mysqli.class.php(188): mysql->Error()
+#2 /var/www/html/lib/mysqli.class.php(229): mysql->Exec()
+#3 /var/www/html/lib/sqlFunctions.class.php(95): mysql->SelectOne()
+#4 /var/www/html/lib/caching.class.php(30): SQLSelectOne()
+#5 /var/www/html/lib/objects.class.php(609): checkCycleFromCache()
+#6 /var/www/html/lib/objects.class.php(1296): getGlobal()
+#7 /var/www/html/modules/connect/connect.class.php(1036): gg()
+#8 /var/www/html/modules/connect/connect.class.php(101): connect->usual()
+#9 /var/www/html/modules/application.class.php(399) : eval()'d code(5): connect->run()
+#10 /var/www/html/modules/application.class.php(399): eval()
+#11 /var/www/html/index.php(42): application->run()
+#12 /var/www/html/nf.php(151): include_once('/var/www/html/i...')
+#13 {main}
+17:54:58 0.35814100 Error registered (type: sql):
+1146: Table 'db_terminal.cached_cycles' doesn't exist
+SELECT * FROM cached_cycles WHERE TITLE = 'cycle_connectRun'
+Backtrace:
+#0 /var/www/html/lib/mysqli.class.php(397): registerError()
+#1 /var/www/html/lib/mysqli.class.php(188): mysql->Error()
+#2 /var/www/html/lib/mysqli.class.php(229): mysql->Exec()
+#3 /var/www/html/lib/sqlFunctions.class.php(95): mysql->SelectOne()
+#4 /var/www/html/lib/caching.class.php(30): SQLSelectOne()
+#5 /var/www/html/lib/objects.class.php(609): checkCycleFromCache()
+#6 /var/www/html/modules/xray/xray.class.php(795): getGlobal()
+#7 /var/www/html/modules/xray/xray.class.php(104): xray->admin()
+#8 /var/www/html/lib/jTemplate.class.php(640) : eval()'d code(8): xray->run()
+#9 /var/www/html/lib/jTemplate.class.php(640): eval()
+#10 /var/www/html/lib/jTemplate.class.php(181): jTemplate->parseModules()
+#11 /var/www/html/lib/jTemplate.class.php(98): jTemplate->parse()
+#12 /var/www/html/lib/parser.class.php(93): jTemplate->__construct()
+#13 /var/www/html/lib/parser.class.php(63): parser->jtemplate_parse()
+#14 /var/www/html/modules/panel.class.php(249): parser->__construct()
+#15 /var/www/html/admin.php(43): panel->run()
+#16 {main}
+17:54:59 0.13233900 Error registered (type: sql):
+1146: Table 'db_terminal.cached_cycles' doesn't exist
+SELECT * FROM cached_cycles WHERE TITLE = 'cycle_websocketsDisabled'
+Backtrace:
+#0 /var/www/html/lib/mysqli.class.php(397): registerError()
+#1 /var/www/html/lib/mysqli.class.php(188): mysql->Error()
+#2 /var/www/html/lib/mysqli.class.php(229): mysql->Exec()
+#3 /var/www/html/lib/sqlFunctions.class.php(95): mysql->SelectOne()
+#4 /var/www/html/lib/caching.class.php(30): SQLSelectOne()
+#5 /var/www/html/lib/objects.class.php(609): checkCycleFromCache()
+#6 /var/www/html/diagnostic.php(108): getGlobal()
+#7 /var/www/html/diagnostic.php(274): collectData()
+#8 {main}
+17:54:59 0.26505500 Error registered (type: sql):
+1146: Table 'db_terminal.cached_cycles' doesn't exist
+SELECT * FROM cached_cycles WHERE TITLE = 'cycle_connectRun'
+Backtrace:
+#0 /var/www/html/lib/mysqli.class.php(397): registerError()
+#1 /var/www/html/lib/mysqli.class.php(188): mysql->Error()
+#2 /var/www/html/lib/mysqli.class.php(229): mysql->Exec()
+#3 /var/www/html/lib/sqlFunctions.class.php(95): mysql->SelectOne()
+#4 /var/www/html/lib/caching.class.php(30): SQLSelectOne()
+#5 /var/www/html/lib/objects.class.php(609): checkCycleFromCache()
+#6 /var/www/html/lib/objects.class.php(1296): getGlobal()
+#7 /var/www/html/modules/connect/connect.class.php(1036): gg()
+#8 /var/www/html/modules/connect/connect.class.php(101): connect->usual()
+#9 /var/www/html/modules/application.class.php(399) : eval()'d code(5): connect->run()
+#10 /var/www/html/modules/application.class.php(399): eval()
+#11 /var/www/html/index.php(42): application->run()
+#12 /var/www/html/nf.php(151): include_once('/var/www/html/i...')
+#13 {main}
+17:55:09 0.16916100 Error registered (type: sql):
+1146: Table 'db_terminal.cached_cycles' doesn't exist
+SELECT * FROM cached_cycles WHERE TITLE = 'cycle_connectRun'
+Backtrace:
+#0 /var/www/html/lib/mysqli.class.php(397): registerError()
+#1 /var/www/html/lib/mysqli.class.php(188): mysql->Error()
+#2 /var/www/html/lib/mysqli.class.php(229): mysql->Exec()
+#3 /var/www/html/lib/sqlFunctions.class.php(95): mysql->SelectOne()
+#4 /var/www/html/lib/caching.class.php(30): SQLSelectOne()
+#5 /var/www/html/lib/objects.class.php(609): checkCycleFromCache()
+#6 /var/www/html/modules/xray/xray.class.php(795): getGlobal()
+#7 /var/www/html/modules/xray/xray.class.php(104): xray->admin()
+#8 /var/www/html/lib/jTemplate.class.php(640) : eval()'d code(8): xray->run()
+#9 /var/www/html/lib/jTemplate.class.php(640): eval()
+#10 /var/www/html/lib/jTemplate.class.php(181): jTemplate->parseModules()
+#11 /var/www/html/lib/jTemplate.class.php(98): jTemplate->parse()
+#12 /var/www/html/lib/parser.class.php(93): jTemplate->__construct()
+#13 /var/www/html/lib/parser.class.php(63): parser->jtemplate_parse()
+#14 /var/www/html/modules/panel.class.php(249): parser->__construct()
+#15 /var/www/html/admin.php(43): panel->run()
+#16 {main}
+17:55:09 0.43300200 Error registered (type: sql):
+1146: Table 'db_terminal.cached_cycles' doesn't exist
+SELECT * FROM cached_cycles WHERE TITLE = 'cycle_websocketsDisabled'
+Backtrace:
+#0 /var/www/html/lib/mysqli.class.php(397): registerError()
+#1 /var/www/html/lib/mysqli.class.php(188): mysql->Error()
+#2 /var/www/html/lib/mysqli.class.php(229): mysql->Exec()
+#3 /var/www/html/lib/sqlFunctions.class.php(95): mysql->SelectOne()
+#4 /var/www/html/lib/caching.class.php(30): SQLSelectOne()
+#5 /var/www/html/lib/objects.class.php(609): checkCycleFromCache()
+#6 /var/www/html/diagnostic.php(108): getGlobal()
+#7 /var/www/html/diagnostic.php(274): collectData()
+#8 {main}
+17:55:09 0.44024100 Error registered (type: sql):
+1146: Table 'db_terminal.cached_cycles' doesn't exist
+SELECT * FROM cached_cycles WHERE TITLE = 'cycle_connectRun'
+Backtrace:
+#0 /var/www/html/lib/mysqli.class.php(397): registerError()
+#1 /var/www/html/lib/mysqli.class.php(188): mysql->Error()
+#2 /var/www/html/lib/mysqli.class.php(229): mysql->Exec()
+#3 /var/www/html/lib/sqlFunctions.class.php(95): mysql->SelectOne()
+#4 /var/www/html/lib/caching.class.php(30): SQLSelectOne()
+#5 /var/www/html/lib/objects.class.php(609): checkCycleFromCache()
+#6 /var/www/html/lib/objects.class.php(1296): getGlobal()
+#7 /var/www/html/modules/connect/connect.class.php(1036): gg()
+#8 /var/www/html/modules/connect/connect.class.php(101): connect->usual()
+#9 /var/www/html/modules/application.class.php(399) : eval()'d code(5): connect->run()
+#10 /var/www/html/modules/application.class.php(399): eval()
+#11 /var/www/html/index.php(42): application->run()
+#12 /var/www/html/nf.php(151): include_once('/var/www/html/i...')
+#13 {main}
+17:55:43 0.17891300 Error registered (type: sql):
+1146: Table 'db_terminal.cached_cycles' doesn't exist
+SELECT * FROM cached_cycles WHERE TITLE = 'cycle_connectRun'
+Backtrace:
+#0 /var/www/html/lib/mysqli.class.php(397): registerError()
+#1 /var/www/html/lib/mysqli.class.php(188): mysql->Error()
+#2 /var/www/html/lib/mysqli.class.php(229): mysql->Exec()
+#3 /var/www/html/lib/sqlFunctions.class.php(95): mysql->SelectOne()
+#4 /var/www/html/lib/caching.class.php(30): SQLSelectOne()
+#5 /var/www/html/lib/objects.class.php(609): checkCycleFromCache()
+#6 /var/www/html/modules/xray/xray.class.php(795): getGlobal()
+#7 /var/www/html/modules/xray/xray.class.php(104): xray->admin()
+#8 /var/www/html/lib/jTemplate.class.php(640) : eval()'d code(8): xray->run()
+#9 /var/www/html/lib/jTemplate.class.php(640): eval()
+#10 /var/www/html/lib/jTemplate.class.php(181): jTemplate->parseModules()
+#11 /var/www/html/lib/jTemplate.class.php(98): jTemplate->parse()
+#12 /var/www/html/lib/parser.class.php(93): jTemplate->__construct()
+#13 /var/www/html/lib/parser.class.php(63): parser->jtemplate_parse()
+#14 /var/www/html/modules/panel.class.php(249): parser->__construct()
+#15 /var/www/html/admin.php(43): panel->run()
+#16 {main}
+17:55:43 0.45638200 Error registered (type: sql):
+1146: Table 'db_terminal.cached_cycles' doesn't exist
+SELECT * FROM cached_cycles WHERE TITLE = 'cycle_connectRun'
+Backtrace:
+#0 /var/www/html/lib/mysqli.class.php(397): registerError()
+#1 /var/www/html/lib/mysqli.class.php(188): mysql->Error()
+#2 /var/www/html/lib/mysqli.class.php(229): mysql->Exec()
+#3 /var/www/html/lib/sqlFunctions.class.php(95): mysql->SelectOne()
+#4 /var/www/html/lib/caching.class.php(30): SQLSelectOne()
+#5 /var/www/html/lib/objects.class.php(609): checkCycleFromCache()
+#6 /var/www/html/lib/objects.class.php(1296): getGlobal()
+#7 /var/www/html/modules/connect/connect.class.php(1036): gg()
+#8 /var/www/html/modules/connect/connect.class.php(101): connect->usual()
+#9 /var/www/html/modules/application.class.php(399) : eval()'d code(5): connect->run()
+#10 /var/www/html/modules/application.class.php(399): eval()
+#11 /var/www/html/index.php(42): application->run()
+#12 /var/www/html/nf.php(151): include_once('/var/www/html/i...')
+#13 {main}
+17:55:43 0.46009300 Error registered (type: sql):
+1146: Table 'db_terminal.cached_cycles' doesn't exist
+SELECT * FROM cached_cycles WHERE TITLE = 'cycle_websocketsDisabled'
+Backtrace:
+#0 /var/www/html/lib/mysqli.class.php(397): registerError()
+#1 /var/www/html/lib/mysqli.class.php(188): mysql->Error()
+#2 /var/www/html/lib/mysqli.class.php(229): mysql->Exec()
+#3 /var/www/html/lib/sqlFunctions.class.php(95): mysql->SelectOne()
+#4 /var/www/html/lib/caching.class.php(30): SQLSelectOne()
+#5 /var/www/html/lib/objects.class.php(609): checkCycleFromCache()
+#6 /var/www/html/diagnostic.php(108): getGlobal()
+#7 /var/www/html/diagnostic.php(274): collectData()
+#8 {main}
+17:55:53 0.45575900 Error registered (type: sql):
+1146: Table 'db_terminal.cached_cycles' doesn't exist
+SELECT * FROM cached_cycles WHERE TITLE = 'cycle_connectRun'
+Backtrace:
+#0 /var/www/html/lib/mysqli.class.php(397): registerError()
+#1 /var/www/html/lib/mysqli.class.php(188): mysql->Error()
+#2 /var/www/html/lib/mysqli.class.php(229): mysql->Exec()
+#3 /var/www/html/lib/sqlFunctions.class.php(95): mysql->SelectOne()
+#4 /var/www/html/lib/caching.class.php(30): SQLSelectOne()
+#5 /var/www/html/lib/objects.class.php(609): checkCycleFromCache()
+#6 /var/www/html/modules/xray/xray.class.php(795): getGlobal()
+#7 /var/www/html/modules/xray/xray.class.php(104): xray->admin()
+#8 /var/www/html/lib/jTemplate.class.php(640) : eval()'d code(8): xray->run()
+#9 /var/www/html/lib/jTemplate.class.php(640): eval()
+#10 /var/www/html/lib/jTemplate.class.php(181): jTemplate->parseModules()
+#11 /var/www/html/lib/jTemplate.class.php(98): jTemplate->parse()
+#12 /var/www/html/lib/parser.class.php(93): jTemplate->__construct()
+#13 /var/www/html/lib/parser.class.php(63): parser->jtemplate_parse()
+#14 /var/www/html/modules/panel.class.php(249): parser->__construct()
+#15 /var/www/html/admin.php(43): panel->run()
+#16 {main}
+17:56:28 0.89517600 Error registered (type: sql):
+1146: Table 'db_terminal.cached_cycles' doesn't exist
+SELECT * FROM cached_cycles WHERE TITLE = 'cycle_connectRun'
+Backtrace:
+#0 /var/www/html/lib/mysqli.class.php(397): registerError()
+#1 /var/www/html/lib/mysqli.class.php(188): mysql->Error()
+#2 /var/www/html/lib/mysqli.class.php(229): mysql->Exec()
+#3 /var/www/html/lib/sqlFunctions.class.php(95): mysql->SelectOne()
+#4 /var/www/html/lib/caching.class.php(30): SQLSelectOne()
+#5 /var/www/html/lib/objects.class.php(609): checkCycleFromCache()
+#6 /var/www/html/modules/xray/xray.class.php(795): getGlobal()
+#7 /var/www/html/modules/xray/xray.class.php(104): xray->admin()
+#8 /var/www/html/lib/jTemplate.class.php(640) : eval()'d code(8): xray->run()
+#9 /var/www/html/lib/jTemplate.class.php(640): eval()
+#10 /var/www/html/lib/jTemplate.class.php(181): jTemplate->parseModules()
+#11 /var/www/html/lib/jTemplate.class.php(98): jTemplate->parse()
+#12 /var/www/html/lib/parser.class.php(93): jTemplate->__construct()
+#13 /var/www/html/lib/parser.class.php(63): parser->jtemplate_parse()
+#14 /var/www/html/modules/panel.class.php(249): parser->__construct()
+#15 /var/www/html/admin.php(43): panel->run()
+#16 {main}
+17:57:11 0.73676000 Error registered (type: sql):
+1146: Table 'db_terminal.cached_cycles' doesn't exist
+SELECT * FROM cached_cycles WHERE TITLE = 'cycle_connectRun'
+Backtrace:
+#0 /var/www/html/lib/mysqli.class.php(397): registerError()
+#1 /var/www/html/lib/mysqli.class.php(188): mysql->Error()
+#2 /var/www/html/lib/mysqli.class.php(229): mysql->Exec()
+#3 /var/www/html/lib/sqlFunctions.class.php(95): mysql->SelectOne()
+#4 /var/www/html/lib/caching.class.php(30): SQLSelectOne()
+#5 /var/www/html/lib/objects.class.php(609): checkCycleFromCache()
+#6 /var/www/html/modules/xray/xray.class.php(795): getGlobal()
+#7 /var/www/html/modules/xray/xray.class.php(104): xray->admin()
+#8 /var/www/html/lib/jTemplate.class.php(640) : eval()'d code(8): xray->run()
+#9 /var/www/html/lib/jTemplate.class.php(640): eval()
+#10 /var/www/html/lib/jTemplate.class.php(181): jTemplate->parseModules()
+#11 /var/www/html/lib/jTemplate.class.php(98): jTemplate->parse()
+#12 /var/www/html/lib/parser.class.php(93): jTemplate->__construct()
+#13 /var/www/html/lib/parser.class.php(63): parser->jtemplate_parse()
+#14 /var/www/html/modules/panel.class.php(249): parser->__construct()
+#15 /var/www/html/admin.php(43): panel->run()
+#16 {main}
+17:57:14 0.40963800 Error registered (type: sql):
+1146: Table 'db_terminal.cached_cycles' doesn't exist
+SELECT * FROM cached_cycles WHERE TITLE = 'cycle_connectRun'
+Backtrace:
+#0 /var/www/html/lib/mysqli.class.php(397): registerError()
+#1 /var/www/html/lib/mysqli.class.php(188): mysql->Error()
+#2 /var/www/html/lib/mysqli.class.php(229): mysql->Exec()
+#3 /var/www/html/lib/sqlFunctions.class.php(95): mysql->SelectOne()
+#4 /var/www/html/lib/caching.class.php(30): SQLSelectOne()
+#5 /var/www/html/lib/objects.class.php(609): checkCycleFromCache()
+#6 /var/www/html/modules/xray/xray.class.php(795): getGlobal()
+#7 /var/www/html/modules/xray/xray.class.php(104): xray->admin()
+#8 /var/www/html/lib/jTemplate.class.php(640) : eval()'d code(8): xray->run()
+#9 /var/www/html/lib/jTemplate.class.php(640): eval()
+#10 /var/www/html/lib/jTemplate.class.php(181): jTemplate->parseModules()
+#11 /var/www/html/lib/jTemplate.class.php(98): jTemplate->parse()
+#12 /var/www/html/lib/parser.class.php(93): jTemplate->__construct()
+#13 /var/www/html/lib/parser.class.php(63): parser->jtemplate_parse()
+#14 /var/www/html/modules/panel.class.php(249): parser->__construct()
+#15 /var/www/html/admin.php(43): panel->run()
+#16 {main}
+17:57:14 0.59179400 Error registered (type: sql):
+1146: Table 'db_terminal.cached_cycles' doesn't exist
+SELECT * FROM cached_cycles WHERE TITLE = 'cycle_websocketsDisabled'
+Backtrace:
+#0 /var/www/html/lib/mysqli.class.php(397): registerError()
+#1 /var/www/html/lib/mysqli.class.php(188): mysql->Error()
+#2 /var/www/html/lib/mysqli.class.php(229): mysql->Exec()
+#3 /var/www/html/lib/sqlFunctions.class.php(95): mysql->SelectOne()
+#4 /var/www/html/lib/caching.class.php(30): SQLSelectOne()
+#5 /var/www/html/lib/objects.class.php(609): checkCycleFromCache()
+#6 /var/www/html/diagnostic.php(108): getGlobal()
+#7 /var/www/html/diagnostic.php(274): collectData()
+#8 {main}
+17:57:14 0.70390300 Error registered (type: sql):
+1146: Table 'db_terminal.cached_cycles' doesn't exist
+SELECT * FROM cached_cycles WHERE TITLE = 'cycle_connectRun'
+Backtrace:
+#0 /var/www/html/lib/mysqli.class.php(397): registerError()
+#1 /var/www/html/lib/mysqli.class.php(188): mysql->Error()
+#2 /var/www/html/lib/mysqli.class.php(229): mysql->Exec()
+#3 /var/www/html/lib/sqlFunctions.class.php(95): mysql->SelectOne()
+#4 /var/www/html/lib/caching.class.php(30): SQLSelectOne()
+#5 /var/www/html/lib/objects.class.php(609): checkCycleFromCache()
+#6 /var/www/html/lib/objects.class.php(1296): getGlobal()
+#7 /var/www/html/modules/connect/connect.class.php(1036): gg()
+#8 /var/www/html/modules/connect/connect.class.php(101): connect->usual()
+#9 /var/www/html/modules/application.class.php(399) : eval()'d code(5): connect->run()
+#10 /var/www/html/modules/application.class.php(399): eval()
+#11 /var/www/html/index.php(42): application->run()
+#12 /var/www/html/nf.php(151): include_once('/var/www/html/i...')
+#13 {main}
+17:57:23 0.16836900 Error registered (type: sql):
+1146: Table 'db_terminal.cached_cycles' doesn't exist
+REPLACE INTO cached_cycles (TITLE, VALUE)  VALUES ('cycle_statesRun', '1660661843')
+Backtrace:
+#0 /var/www/html/lib/mysqli.class.php(397): registerError()
+#1 /var/www/html/lib/mysqli.class.php(188): mysql->Error()
+#2 /var/www/html/lib/sqlFunctions.class.php(24): mysql->Exec()
+#3 /var/www/html/lib/caching.class.php(19): SQLExec()
+#4 /var/www/html/lib/objects.class.php(924): saveCycleToCache()
+#5 /var/www/html/scripts/cycle_states.php(18): setGlobal()
+#6 {main}
+17:57:27 0.60538600 Error registered (type: sql):
+1146: Table 'db_terminal.cached_cycles' doesn't exist
+REPLACE INTO cached_cycles (TITLE, VALUE)  VALUES ('cycle_statesRun', '1660661847')
+Backtrace:
+#0 /var/www/html/lib/mysqli.class.php(397): registerError()
+#1 /var/www/html/lib/mysqli.class.php(188): mysql->Error()
+#2 /var/www/html/lib/sqlFunctions.class.php(24): mysql->Exec()
+#3 /var/www/html/lib/caching.class.php(19): SQLExec()
+#4 /var/www/html/lib/objects.class.php(924): saveCycleToCache()
+#5 /var/www/html/scripts/cycle_states.php(18): setGlobal()
+#6 {main}
+17:57:54 0.24037100 Error registered (type: sql):
+1146: Table 'db_terminal.cached_cycles' doesn't exist
+SELECT * FROM cached_cycles WHERE TITLE = 'cycle_connectRun'
+Backtrace:
+#0 /var/www/html/lib/mysqli.class.php(397): registerError()
+#1 /var/www/html/lib/mysqli.class.php(188): mysql->Error()
+#2 /var/www/html/lib/mysqli.class.php(229): mysql->Exec()
+#3 /var/www/html/lib/sqlFunctions.class.php(95): mysql->SelectOne()
+#4 /var/www/html/lib/caching.class.php(30): SQLSelectOne()
+#5 /var/www/html/lib/objects.class.php(609): checkCycleFromCache()
+#6 /var/www/html/modules/xray/xray.class.php(795): getGlobal()
+#7 /var/www/html/modules/xray/xray.class.php(104): xray->admin()
+#8 /var/www/html/lib/jTemplate.class.php(640) : eval()'d code(8): xray->run()
+#9 /var/www/html/lib/jTemplate.class.php(640): eval()
+#10 /var/www/html/lib/jTemplate.class.php(181): jTemplate->parseModules()
+#11 /var/www/html/lib/jTemplate.class.php(98): jTemplate->parse()
+#12 /var/www/html/lib/parser.class.php(93): jTemplate->__construct()
+#13 /var/www/html/lib/parser.class.php(63): parser->jtemplate_parse()
+#14 /var/www/html/modules/panel.class.php(249): parser->__construct()
+#15 /var/www/html/admin.php(43): panel->run()
+#16 {main}
+17:57:54 0.46115700 Error registered (type: sql):
+1146: Table 'db_terminal.cached_cycles' doesn't exist
+SELECT * FROM cached_cycles WHERE TITLE = 'cycle_websocketsDisabled'
+Backtrace:
+#0 /var/www/html/lib/mysqli.class.php(397): registerError()
+#1 /var/www/html/lib/mysqli.class.php(188): mysql->Error()
+#2 /var/www/html/lib/mysqli.class.php(229): mysql->Exec()
+#3 /var/www/html/lib/sqlFunctions.class.php(95): mysql->SelectOne()
+#4 /var/www/html/lib/caching.class.php(30): SQLSelectOne()
+#5 /var/www/html/lib/objects.class.php(609): checkCycleFromCache()
+#6 /var/www/html/diagnostic.php(108): getGlobal()
+#7 /var/www/html/diagnostic.php(274): collectData()
+#8 {main}
+17:57:54 0.58742400 Error registered (type: sql):
+1146: Table 'db_terminal.cached_cycles' doesn't exist
+SELECT * FROM cached_cycles WHERE TITLE = 'cycle_connectRun'
+Backtrace:
+#0 /var/www/html/lib/mysqli.class.php(397): registerError()
+#1 /var/www/html/lib/mysqli.class.php(188): mysql->Error()
+#2 /var/www/html/lib/mysqli.class.php(229): mysql->Exec()
+#3 /var/www/html/lib/sqlFunctions.class.php(95): mysql->SelectOne()
+#4 /var/www/html/lib/caching.class.php(30): SQLSelectOne()
+#5 /var/www/html/lib/objects.class.php(609): checkCycleFromCache()
+#6 /var/www/html/lib/objects.class.php(1296): getGlobal()
+#7 /var/www/html/modules/connect/connect.class.php(1036): gg()
+#8 /var/www/html/modules/connect/connect.class.php(101): connect->usual()
+#9 /var/www/html/modules/application.class.php(399) : eval()'d code(5): connect->run()
+#10 /var/www/html/modules/application.class.php(399): eval()
+#11 /var/www/html/index.php(42): application->run()
+#12 /var/www/html/nf.php(151): include_once('/var/www/html/i...')
+#13 {main}
+17:58:05 0.53177900 Error registered (type: sql):
+1146: Table 'db_terminal.cached_cycles' doesn't exist
+SELECT * FROM cached_cycles WHERE TITLE = 'cycle_connectRun'
+Backtrace:
+#0 /var/www/html/lib/mysqli.class.php(397): registerError()
+#1 /var/www/html/lib/mysqli.class.php(188): mysql->Error()
+#2 /var/www/html/lib/mysqli.class.php(229): mysql->Exec()
+#3 /var/www/html/lib/sqlFunctions.class.php(95): mysql->SelectOne()
+#4 /var/www/html/lib/caching.class.php(30): SQLSelectOne()
+#5 /var/www/html/lib/objects.class.php(609): checkCycleFromCache()
+#6 /var/www/html/modules/xray/xray.class.php(795): getGlobal()
+#7 /var/www/html/modules/xray/xray.class.php(104): xray->admin()
+#8 /var/www/html/lib/jTemplate.class.php(640) : eval()'d code(8): xray->run()
+#9 /var/www/html/lib/jTemplate.class.php(640): eval()
+#10 /var/www/html/lib/jTemplate.class.php(181): jTemplate->parseModules()
+#11 /var/www/html/lib/jTemplate.class.php(98): jTemplate->parse()
+#12 /var/www/html/lib/parser.class.php(93): jTemplate->__construct()
+#13 /var/www/html/lib/parser.class.php(63): parser->jtemplate_parse()
+#14 /var/www/html/modules/panel.class.php(249): parser->__construct()
+#15 /var/www/html/admin.php(43): panel->run()
+#16 {main}
+17:59:55 0.12227600 Error registered (type: sql):
+1146: Table 'db_terminal.cached_cycles' doesn't exist
+SELECT * FROM cached_cycles WHERE TITLE = 'cycle_connectRun'
+Backtrace:
+#0 /var/www/html/lib/mysqli.class.php(397): registerError()
+#1 /var/www/html/lib/mysqli.class.php(188): mysql->Error()
+#2 /var/www/html/lib/mysqli.class.php(229): mysql->Exec()
+#3 /var/www/html/lib/sqlFunctions.class.php(95): mysql->SelectOne()
+#4 /var/www/html/lib/caching.class.php(30): SQLSelectOne()
+#5 /var/www/html/lib/objects.class.php(609): checkCycleFromCache()
+#6 /var/www/html/modules/xray/xray.class.php(795): getGlobal()
+#7 /var/www/html/modules/xray/xray.class.php(104): xray->admin()
+#8 /var/www/html/lib/jTemplate.class.php(640) : eval()'d code(8): xray->run()
+#9 /var/www/html/lib/jTemplate.class.php(640): eval()
+#10 /var/www/html/lib/jTemplate.class.php(181): jTemplate->parseModules()
+#11 /var/www/html/lib/jTemplate.class.php(98): jTemplate->parse()
+#12 /var/www/html/lib/parser.class.php(93): jTemplate->__construct()
+#13 /var/www/html/lib/parser.class.php(63): parser->jtemplate_parse()
+#14 /var/www/html/modules/panel.class.php(249): parser->__construct()
+#15 /var/www/html/admin.php(43): panel->run()
+#16 {main}
+18:00:06 0.93469900 Error registered (type: sql):
+1146: Table 'db_terminal.cached_cycles' doesn't exist
+SELECT * FROM cached_cycles WHERE TITLE = 'cycle_connectRun'
+Backtrace:
+#0 /var/www/html/lib/mysqli.class.php(397): registerError()
+#1 /var/www/html/lib/mysqli.class.php(188): mysql->Error()
+#2 /var/www/html/lib/mysqli.class.php(229): mysql->Exec()
+#3 /var/www/html/lib/sqlFunctions.class.php(95): mysql->SelectOne()
+#4 /var/www/html/lib/caching.class.php(30): SQLSelectOne()
+#5 /var/www/html/lib/objects.class.php(609): checkCycleFromCache()
+#6 /var/www/html/modules/xray/xray.class.php(795): getGlobal()
+#7 /var/www/html/modules/xray/xray.class.php(104): xray->admin()
+#8 /var/www/html/lib/jTemplate.class.php(640) : eval()'d code(8): xray->run()
+#9 /var/www/html/lib/jTemplate.class.php(640): eval()
+#10 /var/www/html/lib/jTemplate.class.php(181): jTemplate->parseModules()
+#11 /var/www/html/lib/jTemplate.class.php(98): jTemplate->parse()
+#12 /var/www/html/lib/parser.class.php(93): jTemplate->__construct()
+#13 /var/www/html/lib/parser.class.php(63): parser->jtemplate_parse()
+#14 /var/www/html/modules/panel.class.php(249): parser->__construct()
+#15 /var/www/html/admin.php(43): panel->run()
+#16 {main}
+18:00:28 0.63501500 Error registered (type: sql):
+1146: Table 'db_terminal.cached_cycles' doesn't exist
+SELECT * FROM cached_cycles WHERE TITLE = 'cycle_connectRun'
+Backtrace:
+#0 /var/www/html/lib/mysqli.class.php(397): registerError()
+#1 /var/www/html/lib/mysqli.class.php(188): mysql->Error()
+#2 /var/www/html/lib/mysqli.class.php(229): mysql->Exec()
+#3 /var/www/html/lib/sqlFunctions.class.php(95): mysql->SelectOne()
+#4 /var/www/html/lib/caching.class.php(30): SQLSelectOne()
+#5 /var/www/html/lib/objects.class.php(609): checkCycleFromCache()
+#6 /var/www/html/modules/xray/xray.class.php(795): getGlobal()
+#7 /var/www/html/modules/xray/xray.class.php(104): xray->admin()
+#8 /var/www/html/lib/jTemplate.class.php(640) : eval()'d code(8): xray->run()
+#9 /var/www/html/lib/jTemplate.class.php(640): eval()
+#10 /var/www/html/lib/jTemplate.class.php(181): jTemplate->parseModules()
+#11 /var/www/html/lib/jTemplate.class.php(98): jTemplate->parse()
+#12 /var/www/html/lib/parser.class.php(93): jTemplate->__construct()
+#13 /var/www/html/lib/parser.class.php(63): parser->jtemplate_parse()
+#14 /var/www/html/modules/panel.class.php(249): parser->__construct()
+#15 /var/www/html/admin.php(43): panel->run()
+#16 {main}
+18:00:42 0.69839900 Error registered (type: sql):
+1146: Table 'db_terminal.cached_cycles' doesn't exist
+SELECT * FROM cached_cycles WHERE TITLE = 'cycle_connectRun'
+Backtrace:
+#0 /var/www/html/lib/mysqli.class.php(397): registerError()
+#1 /var/www/html/lib/mysqli.class.php(188): mysql->Error()
+#2 /var/www/html/lib/mysqli.class.php(229): mysql->Exec()
+#3 /var/www/html/lib/sqlFunctions.class.php(95): mysql->SelectOne()
+#4 /var/www/html/lib/caching.class.php(30): SQLSelectOne()
+#5 /var/www/html/lib/objects.class.php(609): checkCycleFromCache()
+#6 /var/www/html/modules/xray/xray.class.php(795): getGlobal()
+#7 /var/www/html/modules/xray/xray.class.php(104): xray->admin()
+#8 /var/www/html/lib/jTemplate.class.php(640) : eval()'d code(8): xray->run()
+#9 /var/www/html/lib/jTemplate.class.php(640): eval()
+#10 /var/www/html/lib/jTemplate.class.php(181): jTemplate->parseModules()
+#11 /var/www/html/lib/jTemplate.class.php(98): jTemplate->parse()
+#12 /var/www/html/lib/parser.class.php(93): jTemplate->__construct()
+#13 /var/www/html/lib/parser.class.php(63): parser->jtemplate_parse()
+#14 /var/www/html/modules/panel.class.php(249): parser->__construct()
+#15 /var/www/html/admin.php(43): panel->run()
+#16 {main}
+18:00:54 0.54645800 Error registered (type: sql):
+1146: Table 'db_terminal.cached_cycles' doesn't exist
+SELECT * FROM cached_cycles WHERE TITLE = 'cycle_connectRun'
+Backtrace:
+#0 /var/www/html/lib/mysqli.class.php(397): registerError()
+#1 /var/www/html/lib/mysqli.class.php(188): mysql->Error()
+#2 /var/www/html/lib/mysqli.class.php(229): mysql->Exec()
+#3 /var/www/html/lib/sqlFunctions.class.php(95): mysql->SelectOne()
+#4 /var/www/html/lib/caching.class.php(30): SQLSelectOne()
+#5 /var/www/html/lib/objects.class.php(609): checkCycleFromCache()
+#6 /var/www/html/modules/xray/xray.class.php(795): getGlobal()
+#7 /var/www/html/modules/xray/xray.class.php(104): xray->admin()
+#8 /var/www/html/lib/jTemplate.class.php(640) : eval()'d code(8): xray->run()
+#9 /var/www/html/lib/jTemplate.class.php(640): eval()
+#10 /var/www/html/lib/jTemplate.class.php(181): jTemplate->parseModules()
+#11 /var/www/html/lib/jTemplate.class.php(98): jTemplate->parse()
+#12 /var/www/html/lib/parser.class.php(93): jTemplate->__construct()
+#13 /var/www/html/lib/parser.class.php(63): parser->jtemplate_parse()
+#14 /var/www/html/modules/panel.class.php(249): parser->__construct()
+#15 /var/www/html/admin.php(43): panel->run()
+#16 {main}

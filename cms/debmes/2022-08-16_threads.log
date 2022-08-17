@@ -1,0 +1,49 @@
+18:02:34 0.80002300 Removing property ThisComputer. (object 7)
+18:02:34 0.80153200 Deleting Pvalue: 323
+18:02:34 0.80390800 REMOVED 254
+18:02:34 0.80394600 Removing property ThisComputer.cycle_connectRun (object 7)
+18:02:34 0.80527700 Deleting Pvalue: 316
+18:02:34 0.80669100 REMOVED 247
+18:02:34 0.80672700 Removing property ThisComputer.cycle_execsRun (object 7)
+18:02:34 0.80772000 Deleting Pvalue: 318
+18:02:34 0.80885500 REMOVED 249
+18:02:34 0.80889700 Removing property ThisComputer.cycle_mainRun (object 7)
+18:02:34 0.80977700 Deleting Pvalue: 322
+18:02:34 0.81107800 REMOVED 253
+18:02:34 0.81113200 Removing property ThisComputer.cycle_phistoryRun (object 7)
+18:02:34 0.81212700 Deleting Pvalue: 319
+18:02:34 0.81327100 REMOVED 250
+18:02:34 0.81330600 Removing property ThisComputer.cycle_pingRun (object 7)
+18:02:34 0.81422200 Deleting Pvalue: 317
+18:02:34 0.81542300 REMOVED 248
+18:02:34 0.81545700 Removing property ThisComputer.cycle_schedulerRun (object 7)
+18:02:34 0.81651400 Deleting Pvalue: 320
+18:02:34 0.81764400 REMOVED 251
+18:02:34 0.81767800 Removing property ThisComputer.cycle_statesRun (object 7)
+18:02:34 0.81857900 Deleting Pvalue: 321
+18:02:34 0.81988600 REMOVED 252
+18:02:34 0.81992100 Removing property ThisComputer.cycle_websocketsRun (object 7)
+18:02:34 0.82083900 Deleting Pvalue: 324
+18:02:34 0.82203700 REMOVED 255
+18:02:34 0.82613100 Starting ./scripts/cycle_websockets.php ... 
+18:02:34 0.83382700 Starting ./scripts/cycle_connect.php ... 
+18:02:34 0.84461800 Starting ./scripts/cycle_main.php ... 
+18:02:34 0.85272400 Starting ./scripts/cycle_wscache.php ... 
+18:02:34 0.86267600 Starting ./scripts/cycle_ping.php ... 
+18:02:34 0.87220000 Starting ./scripts/cycle_phistory.php ... 
+18:02:34 0.87897900 Starting ./scripts/cycle_scheduler.php ... 
+18:02:34 0.88793600 Starting ./scripts/cycle_execs.php ... 
+18:02:34 0.89693300 Starting ./scripts/cycle_mqtt.php ... 
+18:02:34 0.90546200 Starting ./scripts/cycle_states.php ... 
+18:02:35 0.90754100 Closing thread: exec php -q ./scripts/cycle_connect.php --params "a:0:{}" > /dev/null 2>&1
+18:02:35 0.90768200 Closing thread: exec php -q ./scripts/cycle_mqtt.php --params "a:0:{}" > /dev/null 2>&1
+18:02:36 0.90834700 Thread closed: cycle_connect
+18:02:36 0.91010700 Thread closed: cycle_mqtt
+18:03:06 0.92725100 Adding cycle_websockets to auto-recovery list
+18:03:06 0.92730600 Adding cycle_main to auto-recovery list
+18:03:06 0.92732900 Adding cycle_wscache to auto-recovery list
+18:03:06 0.92734900 Adding cycle_ping to auto-recovery list
+18:03:06 0.92736800 Adding cycle_phistory to auto-recovery list
+18:03:06 0.92738700 Adding cycle_scheduler to auto-recovery list
+18:03:06 0.92740500 Adding cycle_execs to auto-recovery list
+18:03:06 0.92742400 Adding cycle_states to auto-recovery list

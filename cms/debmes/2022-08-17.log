@@ -1,0 +1,27 @@
+17:17:56 0.81762200 Removing cache from /var/www/html/cms/cached
+17:17:57 0.21572800 Running maintenance script
+17:18:21 0.66473900 Installing/updating plugin linked_prop (2021-04-18 20:46:41)
+21:53:18 0.95026100 {
+    "VALUE": "value1",
+    "m_c_s": [
+        "TestObj.test.5a29df5e8f064cfa3f831d9b1ac148a3"
+    ],
+    "no_session": "1",
+    "ORIGINAL_OBJECT_TITLE": "TestObj"
+}
+21:53:50 0.51089200 {
+    "VALUE": "value1",
+    "m_c_s": [
+        "TestObj.test.5a29df5e8f064cfa3f831d9b1ac148a3"
+    ],
+    "no_session": "1",
+    "ORIGINAL_OBJECT_TITLE": "TestObj"
+}
+21:53:54 0.96286000 {
+    "VALUE": "value1",
+    "m_c_s": [
+        "TestObj.test.5a29df5e8f064cfa3f831d9b1ac148a3"
+    ],
+    "no_session": "1",
+    "ORIGINAL_OBJECT_TITLE": "TestObj"
+}

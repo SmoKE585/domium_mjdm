@@ -1,0 +1,26 @@
+15:03:43 0.70050100 Provider - LocalBackup
+17:17:59 0.21601500 Backing up files...
+17:17:59 0.21612100 Backing up dir /var/www/html/cms/avatars to /var/www/html/backup/20220817/cms/avatars
+17:17:59 0.21629100 Backing up dir /var/www/html/cms/files to /var/www/html/backup/20220817/cms/files
+17:17:59 0.21639700 Backing up dir /var/www/html/cms/html to /var/www/html/backup/20220817/cms/html
+17:17:59 0.21649500 Backing up dir /var/www/html/cms/icons to /var/www/html/backup/20220817/cms/icons
+17:17:59 0.21664000 Backing up dir /var/www/html/cms/images to /var/www/html/backup/20220817/cms/images
+17:17:59 0.21679300 Backing up dir /var/www/html/cms/layouts to /var/www/html/backup/20220817/cms/layouts
+17:17:59 0.21689000 Backing up dir /var/www/html/cms/modules_installed to /var/www/html/backup/20220817/cms/modules_installed
+17:17:59 0.24444200 Backing up dir /var/www/html/cms/products to /var/www/html/backup/20220817/cms/products
+17:17:59 0.24457400 Backing up dir /var/www/html/cms/scenes to /var/www/html/backup/20220817/cms/scenes
+17:17:59 0.27507700 Backing up dir /var/www/html/cms/sounds to /var/www/html/backup/20220817/cms/sounds
+17:17:59 0.27520500 Backing up dir /var/www/html/cms/templates to /var/www/html/backup/20220817/cms/templates
+17:17:59 0.27528200 Backing up dir /var/www/html/cms/texts to /var/www/html/backup/20220817/cms/texts
+17:17:59 0.27535400 Backing up dir /var/www/html/cms/weather to /var/www/html/backup/20220817/cms/weather
+17:17:59 0.27542700 Backing up database db_terminal to /var/www/html/backup/20220817/db_terminal.sql
+17:19:35 0.47377100 Provider - LocalBackup
+17:34:38 0.65716100 Provider - LocalBackup
+17:34:39 0.99208500 Provider - LocalBackup
+17:34:40 0.44520800 Working on backup
+17:34:40 0.44523700 max_execution_time=1800
+17:34:40 0.44556500 BACKUP_DIRS = 
+17:34:41 0.69172900 Provider - LocalBackup
+17:34:47 0.90190300 Provider - LocalBackup
+17:35:13 0.80010300 Provider - LocalBackup
+22:01:52 0.91790000 Provider - LocalBackup
