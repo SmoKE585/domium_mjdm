@@ -213,7 +213,7 @@ class saverestore extends module
 					foreach($items as $key => $value) {
 						$itm = array();
 						
-						if($value['author']['name']['textvalue'] != 'sergejey') continue;
+						//if($value['author']['name']['textvalue'] != 'sergejey') continue;
 						
                         $itm['ID'] = trim($value['id']['textvalue']);
                         $itm['ID'] = preg_replace('/.+Commit\//is', '', $itm['ID']);
@@ -227,12 +227,13 @@ class saverestore extends module
 						$itm['MYVERSION'] = ($itm['ID'] == $this->config['LATEST_UPDATED_ID']) ? 1 : 0;
                         $out['UPDATES'][] = $itm;
 						$iteration++;
-						
+
 						if($iteration >= 10) {
 							break;
 						}
 					}
-					
+			
+			
                     $out['LATEST_ID'] = $out['UPDATES'][0]['ID'];
 					
                     $out['LATEST_CURR_BRANCH'] = $this->config['LATEST_CURR_BRANCH'];
