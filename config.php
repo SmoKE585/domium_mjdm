@@ -10,7 +10,7 @@
 Define('DB_HOST', 'localhost');
 Define('DB_NAME', 'db_terminal');
 Define('DB_USER', 'majordomo');
-Define('DB_PASSWORD', 'VX7rhWYz');
+Define('DB_PASSWORD', '');
 
 Define('DIR_TEMPLATES', "./templates/");
 Define('DIR_MODULES', "./modules/");
