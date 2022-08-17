@@ -67,8 +67,21 @@
 							<a href="https://mjdm.ru/forum/viewtopic.php?f=6&t=7301" style="text-decoration:none;color: #333;" target="_blank"><i style="margin-right: 10px;vertical-align: top;" class="glyphicon glyphicon-send"></i><#LANG_NEWDASH_FORUM_DISCUSSION#></a>
 						</li>
 						
+						<li class="list-group-item">
+							<#LANG_THEME#>
+							<span class="badge" style="background:transparent;">
+								<div class="btn-group" data-toggle="buttons">
+									<label class="btn btn-sm btn-primary" style="padding: 0px 5px;font-size: 1.1rem;background: #474747;border: 0px;">
+										<input type="radio" onChange="if($(this).is(':checked')) $('link#theme').attr('href', '<#ROOTHTML#>3rdparty/bootstrap/css/bootstrap_dark_admin.css');$.cookie('theme', 'dark', {expires: 180});"> <#LANG_THEME_DARK#>
+									</label>
+									<label class="btn btn-sm btn-default" style="padding: 0px 5px;font-size: 1.1rem;background: #939191;border: 0px;">
+										<input type="radio" onChange="if($(this).is(':checked')) $('link#theme').attr('href', '<#ROOTHTML#>3rdparty/bootstrap/css/bootstrap.min.css');$.cookie('theme', 'light', {expires: 180});"> <#LANG_THEME_LIGHT#>
+									</label>
+								</div>
+							</span>
+						</li>
 					</ul>
-					<div class="well well-lg" id="dashInfoOS"><center><img src="<#ROOTHTML#>img/ajax-loader.gif"/> <#LANG_NEWDASH_LOADING#></center></div>
+				
 				</div>
 			</div>
 		</div>
